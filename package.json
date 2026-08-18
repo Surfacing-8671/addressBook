@@ -6,6 +6,7 @@
     "generate": "ts-node src/generator.ts",
     "tokenlist:create": "node src/lib/scripts/create-tokenlist.js",
     "robinhood:sync": "ts-node src/lib/scripts/sync-robinhood-assets.ts",
+    "token:add": "ts-node src/lib/scripts/allowlist-token.ts",
     "lint": "eslint . --ext .js,.ts --max-warnings 0",
     "lint:fix": "npm run lint -- --fix",
     "test": "vitest run",

@@ -1,4 +1,5 @@
 import { Network, OverwritesForList } from '../../types'
+import blockscoutAssets from './assets/blockscout'
 import robinhoodAssets from './assets/robinhood'
 
 export const overwrites: OverwritesForList = {
@@ -9,8 +10,10 @@ export const overwrites: OverwritesForList = {
   [Network.Gnosis]: {},
   [Network.Zkevm]: {},
   [Network.Robinhood]: {
-    // Synced from the RHJ assets API by `npm run robinhood:sync`.
-    // Add manual overrides below this spread so they take precedence.
+    // Both synced by `npm run robinhood:sync`. Later spreads win, so RHJ asset
+    // data beats Blockscout's logo-only entries.
+    ...blockscoutAssets,
     ...robinhoodAssets,
+    // Add manual overrides below this line so they take precedence.
   },
 }

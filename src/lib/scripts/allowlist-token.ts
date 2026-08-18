@@ -1,37 +1,39 @@
 /**
- * 1. Takes 4 args from command line: network, pool type, and pool ID and optional pool description.
- * 2. Parses relevant network config pools allowlist file.
- * 3. Injects pool ID into the relevant pool type allowlist.
- * 4. Writes new file content back to file.
+ * 1. Takes network, token address and optional token symbol from the CLI.
+ * 2. Injects the address into the manual token list for that network.
+ * 3. Writes the new file content back to tokens/manual.ts.
+ *
+ * Args are read straight from argv rather than via cac, because cac's parser
+ * coerces `0x...` addresses into numbers before we can read them.
  *
  * Example usage:
- * npx vite-node ./src/lib/scripts/automatic-prs/allowlist-pool.ts --network mainnet --poolType=stable --poolId=\"0x...\" --poolDescription=foo/bar/baz
+ * npm run token:add -- --network robinhood --tokenAddress 0x... --tokenSymbol FOO
  */
 
-import { cac } from 'cac'
-import { allowListToken } from './edit-tokenlist.js'
+import { isAddress } from 'ethers'
+import { allowListToken } from './edit-tokenlist'
 import configs from '../../config'
-import { Config } from '../../types.js'
+import { Config } from '../../types'
 
-const cli = cac()
-cli
-  .option('--network <network>', 'Choose a network')
-  .option('--tokenAddress <tokenAddress>', 'Token Address')
-  .option('--tokenSymbol <tokenSymbol>', 'Token Symbol')
+function getArg(name: string): string | undefined {
+  const argv = process.argv.slice(2)
+  const index = argv.findIndex((arg) => arg === `--${name}`)
+  if (index !== -1) return argv[index + 1]
 
-const { options } = cli.parse()
+  const inline = argv.find((arg) => arg.startsWith(`--${name}=`))
+  return inline?.slice(name.length + 3)
+}
 
-const tokenAddress = options.tokenAddress.replace(
+const tokenAddress = (getArg('tokenAddress') ?? '').replace(
   /[^0-9a-fA-Fx]+/g,
   ''
-) as string
-let network = options.network as string
-network = network.toLowerCase()
-const { tokenSymbol } = options
+)
+const network = (getArg('network') ?? '').toLowerCase()
+const tokenSymbol = getArg('tokenSymbol') ?? ''
 
 validateInput({ network, tokenAddress })
 
-console.log(`🛠️  Adding ${tokenAddress} to ${network}  allow list.`)
+console.log(`🛠️  Adding ${tokenAddress} to ${network} allow list.`)
 
 allowListToken({
   network,
@@ -50,12 +52,14 @@ function validateInput({
     (config: Config) => config.name
   )
   if (!networkNames.includes(network)) {
-    throw Error(`Invalid network name: ${network}`)
+    throw Error(
+      `Invalid network name: "${network}". Expected one of: ${networkNames.join(
+        ', '
+      )}`
+    )
   }
 
-  if (tokenAddress.length !== 42) {
-    throw Error(
-      `Provided address (${tokenAddress}) does not have the expected length.`
-    )
+  if (!isAddress(tokenAddress)) {
+    throw Error(`Provided address (${tokenAddress}) is not a valid address.`)
   }
 }
