@@ -11,7 +11,8 @@
     "lint:fix": "npm run lint -- --fix",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "token:check-tax": "ts-node src/lib/scripts/check-token-tax.ts"
   },
   "license": "MIT",
   "devDependencies": {

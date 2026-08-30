@@ -775,7 +775,7 @@ const assets: Record<string, Partial<TokenInfo>> = {
       'https://cdn.robinhood.com/ncw_assets/logos/0x9d9c6684f596f66a64c030b93a886d51fd4d7931.png',
   },
   '0x116F00968269B7bfbaD4109cE591d6E74c0601d4': {
-    name: 'Cloudflare • Robinhood Token',
+    name: 'Cloudflare, Inc. Class A common stock • Robinhood Token',
     symbol: 'NET',
     decimals: 18,
     logoURI:

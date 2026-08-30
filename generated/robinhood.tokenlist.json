@@ -3,11 +3,11 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 7
+        "patch": 8
     },
     "keywords": [],
     "logoURI": "https://mytokenlist.com/image.png",
-    "timestamp": "2026-08-18T12:19:03.664Z",
+    "timestamp": "2026-08-30T11:18:04.162Z",
     "tokens": [
         {
             "chainId": 4663,
@@ -892,7 +892,7 @@
         {
             "chainId": 4663,
             "address": "0x116F00968269B7bfbaD4109cE591d6E74c0601d4",
-            "name": "Cloudflare • Robinhood Token",
+            "name": "Cloudflare, Inc. Class A common stock • Robinhood Token",
             "symbol": "NET",
             "decimals": 18,
             "logoURI": "https://cdn.robinhood.com/ncw_assets/logos/0x116f00968269b7bfbad4109ce591d6e74c0601d4.png"
@@ -1575,7 +1575,7 @@
             "name": "USDe",
             "symbol": "USDe",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/33613/small/usde.png?1733810059"
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
         },
         {
             "chainId": 4663,
