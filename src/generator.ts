@@ -4,7 +4,10 @@ import { Network, PartialTokenInfoMap, TokenListMetadata } from './types'
 import { fetchOnchainMetadata } from './lib/fetchers/onchain'
 import { fetchExistingMetadata } from './lib/fetchers/existing'
 import { merge } from 'lodash'
-import { fetchCoingeckoMetadata } from './lib/fetchers/coingecko'
+import {
+  fetchCoingeckoIds,
+  fetchCoingeckoMetadata,
+} from './lib/fetchers/coingecko'
 import fs from 'fs'
 import { getAddress } from 'ethers'
 import chalk from 'chalk'
@@ -87,12 +90,26 @@ async function build(tokenlistName: string) {
       chalk.cyan(`Fetched existing metadata for chain ${network}`)
     )
 
+    console.time(chalk.cyan(`Fetched Coingecko ids for chain ${network}`))
+    const coingeckoIds = await fetchCoingeckoIds(network)
+    console.timeEnd(chalk.cyan(`Fetched Coingecko ids for chain ${network}`))
+
+    if (tokenAddresses.length && !Object.keys(coingeckoIds).length) {
+      console.warn(
+        chalk.yellow(
+          `No Coingecko ids resolved for chain ${network}, ` +
+            'tokens will be generated without them'
+        )
+      )
+    }
+
     console.time(chalk.cyan(`Generated tokens for chain ${network}`))
     const tokenInfo = await generateTokens(
       network,
       tokenAddresses,
       onchainMetadata,
-      existingMetadata
+      existingMetadata,
+      coingeckoIds
     )
     allTokens = allTokens.concat(tokenInfo)
     console.timeEnd(chalk.cyan(`Generated tokens for chain ${network}`))
@@ -137,7 +154,8 @@ async function generateTokens(
   network: Network,
   tokenAddresses: string[],
   onchainMetadata: PartialTokenInfoMap,
-  existingMetadata: PartialTokenInfoMap
+  existingMetadata: PartialTokenInfoMap,
+  coingeckoIds: Record<string, string>
 ): Promise<TokenInfo[]> {
   const tokens: TokenInfo[] = []
 
@@ -148,7 +166,8 @@ async function generateTokens(
       tokenAddress,
       network,
       existingToken,
-      onchainToken
+      onchainToken,
+      coingeckoIds[tokenAddress]
     )
     if (tokenInfo) tokens.push(tokenInfo)
   }
@@ -173,12 +192,15 @@ async function setTokenInfo(
   address: string,
   network: Network,
   existingMetadata: Partial<TokenInfo>,
-  onchainMetadata: Partial<TokenInfo>
+  onchainMetadata: Partial<TokenInfo>,
+  coingeckoId: string | undefined
 ): Promise<TokenInfo | undefined> {
   // combine existingMetadata and overwriteMetadata (precedence last to first)
   // We want the onchain data to be used only if it's missing from existing data.
+  // The Coingecko id sits lowest so an overwrite can pin a different one.
   let metadata = merge(
     { chainId: Number(network), address: getAddress(address) },
+    coingeckoId ? { extensions: { coingeckoId } } : {},
     onchainMetadata,
     existingMetadata
   )
@@ -213,6 +235,7 @@ function formatMetadata(metadata: Partial<TokenInfo>): TokenInfo {
       symbol: undefined,
       decimals: undefined,
       logoURI: undefined,
+      extensions: undefined,
     },
     metadata
   )
