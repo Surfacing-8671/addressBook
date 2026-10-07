@@ -15,5 +15,11 @@ export const overwrites: OverwritesForList = {
     ...blockscoutAssets,
     ...robinhoodAssets,
     // Add manual overrides below this line so they take precedence.
+    // steakUSDG - Morpho ERC4626 vault over USDG, so it borrows USDG's logo.
+    '0xBeEff033F34C046626B8D0A041844C5d1A5409dd': {
+      symbol: 'steakUSDG',
+      logoURI:
+        'https://assets.coingecko.com/coins/images/51281/standard/GDN_USDG_Token_200x200.png?1730484111',
+    },
   },
 }

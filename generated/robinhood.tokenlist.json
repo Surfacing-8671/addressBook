@@ -3,11 +3,11 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 9
+        "patch": 10
     },
     "keywords": [],
     "logoURI": "https://mytokenlist.com/image.png",
-    "timestamp": "2026-09-03T10:04:33.724Z",
+    "timestamp": "2026-10-07T11:26:37.583Z",
     "tokens": [
         {
             "chainId": 4663,
@@ -312,10 +312,7 @@
             "name": "Vanguard Total Bond Market ETF • Robinhood Token",
             "symbol": "BND",
             "decimals": 18,
-            "logoURI": "https://cdn.robinhood.com/ncw_assets/logos/0x2f62fc9fabb470c690f141c28340ed832bb27020.png",
-            "extensions": {
-                "coingeckoId": "vanguard-total-bond-market-etf-robinhood-token"
-            }
+            "logoURI": "https://cdn.robinhood.com/ncw_assets/logos/0x2f62fc9fabb470c690f141c28340ed832bb27020.png"
         },
         {
             "chainId": 4663,
@@ -488,10 +485,7 @@
             "name": "CrowdStrike Holdings • Robinhood Token",
             "symbol": "CRWD",
             "decimals": 18,
-            "logoURI": "https://cdn.robinhood.com/ncw_assets/logos/0xea72ecca2d0f6bfa1394dbbcff85b52cd4233931.png",
-            "extensions": {
-                "coingeckoId": "crowdstrike-holdings-robinhood-tokenized-stock"
-            }
+            "logoURI": "https://cdn.robinhood.com/ncw_assets/logos/0xea72ecca2d0f6bfa1394dbbcff85b52cd4233931.png"
         },
         {
             "chainId": 4663,
@@ -2156,6 +2150,14 @@
         },
         {
             "chainId": 4663,
+            "address": "0xBeEff033F34C046626B8D0A041844C5d1A5409dd",
+            "name": "Steakhouse USDG",
+            "symbol": "steakUSDG",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/51281/standard/GDN_USDG_Token_200x200.png?1730484111"
+        },
+        {
+            "chainId": 4663,
             "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
             "name": "USDe",
             "symbol": "USDe",
@@ -2303,10 +2305,7 @@
             "name": "MowCat",
             "symbol": "MOW",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102175295/small/logo.jpg?1786074528",
-            "extensions": {
-                "coingeckoId": "mowcat"
-            }
+            "logoURI": "https://assets.coingecko.com/coins/images/102175295/small/logo.jpg?1786074528"
         },
         {
             "chainId": 4663,

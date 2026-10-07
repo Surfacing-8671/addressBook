@@ -12,6 +12,7 @@ import { Network } from '../../../types'
 const manual: Partial<Record<Network, string[]>> = {
   [Network.Robinhood]: [
     '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73', // WETH
+    '0xBeEff033F34C046626B8D0A041844C5d1A5409dd', // steakUSDG (Morpho ERC4626 vault over USDG)
 
     // Top 50 non-equity tokens on Robinhood Chain by circulating market cap,
     // pulled from the Blockscout token index. Logos come from assets/blockscout.ts.
