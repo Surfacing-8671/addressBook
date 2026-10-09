@@ -3,11 +3,11 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 11
+        "patch": 12
     },
     "keywords": [],
     "logoURI": "https://mytokenlist.com/image.png",
-    "timestamp": "2026-10-09T08:40:48.376Z",
+    "timestamp": "2026-10-09T09:31:13.304Z",
     "tokens": [
         {
             "chainId": 4663,
@@ -2162,7 +2162,10 @@
             "name": "Frax USD",
             "symbol": "frxUSD",
             "decimals": 18,
-            "logoURI": "https://coin-images.coingecko.com/coins/images/53963/small/frxUSD.png?1737792154"
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53963/small/frxUSD.png?1737792154",
+            "extensions": {
+                "coingeckoId": "frax-usd"
+            }
         },
         {
             "chainId": 4663,

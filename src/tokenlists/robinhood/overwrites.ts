@@ -22,9 +22,12 @@ export const overwrites: OverwritesForList = {
         'https://assets.coingecko.com/coins/images/51281/standard/GDN_USDG_Token_200x200.png?1730484111',
     },
     // frxUSD - Frax USD. Not synced from Blockscout, so it needs a logo here.
+    // CoinGecko has no Robinhood deployment for it, so pin the canonical id
+    // to price it off frxUSD's mainnet markets.
     '0x00000000D61733e7A393A10A5B48c311AbE8f1E5': {
       logoURI:
         'https://coin-images.coingecko.com/coins/images/53963/small/frxUSD.png?1737792154',
+      extensions: { coingeckoId: 'frax-usd' },
     },
   },
 }
