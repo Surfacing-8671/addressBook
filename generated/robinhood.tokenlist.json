@@ -3,11 +3,11 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 10
+        "patch": 11
     },
     "keywords": [],
     "logoURI": "https://mytokenlist.com/image.png",
-    "timestamp": "2026-10-07T11:26:37.583Z",
+    "timestamp": "2026-10-09T08:40:48.376Z",
     "tokens": [
         {
             "chainId": 4663,
@@ -2155,6 +2155,14 @@
             "symbol": "steakUSDG",
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/51281/standard/GDN_USDG_Token_200x200.png?1730484111"
+        },
+        {
+            "chainId": 4663,
+            "address": "0x00000000D61733e7A393A10A5B48c311AbE8f1E5",
+            "name": "Frax USD",
+            "symbol": "frxUSD",
+            "decimals": 18,
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53963/small/frxUSD.png?1737792154"
         },
         {
             "chainId": 4663,
