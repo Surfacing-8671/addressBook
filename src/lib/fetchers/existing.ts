@@ -97,21 +97,11 @@ function fetchExistingTokensListMap(
 export async function fetchExistingMetadata(
   network: Network,
   overwrites: OverwritesForList,
-  existingTokenList: TokenList | undefined
+  existingTokenList: TokenList | undefined,
+  fallbacks: OverwritesForList = {}
 ): Promise<PartialTokenInfoMap> {
-  const overwritesMetadata = overwrites[network]
-
-  const overwritesMetadataFormatted:
-    | Record<string, Partial<TokenInfo>>
-    | undefined = {}
-
-  for (const overwriteTokenAddress in overwritesMetadata) {
-    const data = overwritesMetadata[overwriteTokenAddress]
-    overwritesMetadataFormatted[getAddress(overwriteTokenAddress)] = {
-      ...data,
-      address: data.address ? getAddress(data.address) : data.address,
-    }
-  }
+  const overwritesMetadataFormatted = formatByAddress(overwrites[network])
+  const fallbacksMetadataFormatted = formatByAddress(fallbacks[network])
 
   const localTokenIcons = fetchLocalTokenIcons(network)
   const existingListMetadata = fetchExistingTokensListMap(
@@ -120,11 +110,29 @@ export async function fetchExistingMetadata(
   )
   const trustwalletTokenList = await fetchTrustWalletMetadata(network)
 
-  // With merge, the last argument takes precedence
+  // With merge, the last argument takes precedence. Fallbacks sit below
+  // everything, so they only fill fields no other source provides.
   return merge(
+    fallbacksMetadataFormatted,
     trustwalletTokenList,
     existingListMetadata,
     localTokenIcons,
     overwritesMetadataFormatted
   )
+}
+
+function formatByAddress(
+  metadata: Record<string, Partial<TokenInfo>> | undefined
+): Record<string, Partial<TokenInfo>> {
+  const formatted: Record<string, Partial<TokenInfo>> = {}
+
+  for (const tokenAddress in metadata) {
+    const data = metadata[tokenAddress]
+    formatted[getAddress(tokenAddress)] = {
+      ...data,
+      address: data.address ? getAddress(data.address) : data.address,
+    }
+  }
+
+  return formatted
 }

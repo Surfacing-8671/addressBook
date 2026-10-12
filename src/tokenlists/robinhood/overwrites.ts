@@ -1,6 +1,7 @@
 import { Network, OverwritesForList } from '../../types'
 import blockscoutAssets from './assets/blockscout'
 import robinhoodAssets from './assets/robinhood'
+import robinscanAssets from './assets/robinscan'
 
 export const overwrites: OverwritesForList = {
   [Network.Ethereum]: {},
@@ -30,4 +31,13 @@ export const overwrites: OverwritesForList = {
       extensions: { coingeckoId: 'frax-usd' },
     },
   },
+}
+
+/**
+ * Lowest-priority metadata: only used where no other source (TrustWallet, the
+ * existing list, local icons, overwrites) has a value. Robinscan's logos are
+ * 64px, so they should fill gaps rather than replace better images.
+ */
+export const fallbacks: OverwritesForList = {
+  [Network.Robinhood]: robinscanAssets,
 }

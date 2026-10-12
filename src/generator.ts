@@ -47,7 +47,7 @@ async function run() {
 
 /**
  * Data hierarchy:
- * 1. Existing data, includes overwrites and local images
+ * 1. Existing data, includes overwrites, local images and fallbacks
  * 3. Onchain data
  * 4. Coingecko data (last resort on address my address basis)
  */
@@ -55,7 +55,7 @@ async function run() {
 async function build(tokenlistName: string) {
   let network: Network
   let allTokens: TokenInfo[] = []
-  const { metadata, tokens, overwrites, existingTokenList } =
+  const { metadata, tokens, overwrites, fallbacks, existingTokenList } =
     await getTokenlistSrc(tokenlistName)
 
   for (network in tokens) {
@@ -84,7 +84,8 @@ async function build(tokenlistName: string) {
     const existingMetadata = await fetchExistingMetadata(
       network,
       overwrites,
-      existingTokenList
+      existingTokenList,
+      fallbacks
     )
     console.timeEnd(
       chalk.cyan(`Fetched existing metadata for chain ${network}`)

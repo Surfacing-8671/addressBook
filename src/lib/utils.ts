@@ -44,6 +44,7 @@ export async function getTokenlistSrc(tokenlistName: string): Promise<{
   metadata: TokenListMetadata
   tokens: TokensForList
   overwrites: OverwritesForList
+  fallbacks: OverwritesForList
   existingTokenList: TokenList | undefined
 }> {
   const tokenlistPath = [__dirname, '../tokenlists', tokenlistName]
@@ -83,6 +84,7 @@ export async function getTokenlistSrc(tokenlistName: string): Promise<{
     metadata: metadata.metadata,
     tokens: tokens.tokens,
     overwrites: overwrites.overwrites,
+    fallbacks: overwrites.fallbacks ?? {},
     existingTokenList,
   }
 }

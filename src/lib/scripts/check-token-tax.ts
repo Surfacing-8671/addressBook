@@ -32,6 +32,7 @@
  * it.
  */
 
+import 'dotenv/config'
 import chalk from 'chalk'
 import fs from 'fs'
 import path from 'path'
@@ -52,6 +53,12 @@ const NETWORK = Network.Robinhood
 const RPC_URL =
   process.env.ROBINHOOD_RPC_URL || (configs[NETWORK].rpc as string)
 const BLOCKSCOUT = 'https://robinhoodchain.blockscout.com/api/v2'
+// Fallback holder source when Blockscout is blocked. The holder-list endpoint
+// is API Pro only, so holders are reconstructed from recent transfers instead.
+const ETHERSCAN = `https://api.etherscan.io/v2/api?chainid=${NETWORK}`
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
+/** Recent transfers to scan for candidate holders on the Etherscan path. */
+const ETHERSCAN_TRANSFER_SAMPLE = 200
 
 /**
  * The two files that feed tokens.ts. `--write` removes failing addresses from
@@ -205,10 +212,19 @@ async function getCode(token: string): Promise<string> {
   return (await rpc('eth_getCode', [token, 'latest'])) ?? '0x'
 }
 
-/** Blockscout returns holders largest-first, with an is_contract flag. */
+/**
+ * Holders largest-first, with an is-contract flag. Tries Blockscout, then
+ * Etherscan when ETHERSCAN_API_KEY is set.
+ */
 async function getHolders(token: string): Promise<Holder[]> {
+  const holders = await getBlockscoutHolders(token)
+  if (holders.length || !ETHERSCAN_API_KEY) return holders
+  return getEtherscanHolders(token)
+}
+
+async function getBlockscoutHolders(token: string): Promise<Holder[]> {
   try {
-    const body = await fetchJson(`${BLOCKSCOUT}/tokens/${token}/holders`)
+    const body = await fetchJson(`${BLOCKSCOUT}/tokens/${token}/holders`, {}, 2)
     if (!Array.isArray(body?.items)) return []
 
     return body.items
@@ -219,6 +235,56 @@ async function getHolders(token: string): Promise<Holder[]> {
         value: BigInt(item.value ?? '0'),
       }))
       .filter((holder: Holder) => holder.value > 0n)
+  } catch (error) {
+    return []
+  }
+}
+
+/**
+ * Collects recipients of recent transfers, then reads their live balances and
+ * code over RPC. Not the true top holders, but enough real balances to probe.
+ */
+async function getEtherscanHolders(token: string): Promise<Holder[]> {
+  try {
+    const body = await fetchJson(
+      `${ETHERSCAN}&module=account&action=tokentx&contractaddress=${token}` +
+        `&page=1&offset=${ETHERSCAN_TRANSFER_SAMPLE}&sort=desc` +
+        `&apikey=${ETHERSCAN_API_KEY}`
+    )
+    if (!Array.isArray(body?.result)) return []
+
+    const candidates = [
+      ...new Set<string>(
+        body.result
+          .map((transfer: any) => transfer?.to)
+          .filter((address: unknown) => isAddress(address))
+          .map((address: string) => getAddress(address))
+      ),
+    ]
+
+    const holders: Holder[] = []
+    for (const address of candidates) {
+      const [balance, code] = await Promise.all([
+        rpc('eth_call', [
+          {
+            to: token,
+            data:
+              id('balanceOf(address)').slice(0, 10) +
+              coder.encode(['address'], [address]).slice(2),
+          },
+          'latest',
+        ]),
+        rpc('eth_getCode', [address, 'latest']),
+      ])
+      const value = BigInt(balance && balance !== '0x' ? balance : 0)
+      if (value > 0n) {
+        holders.push({ address, isContract: code !== '0x', value })
+      }
+    }
+
+    return holders.sort((a, b) =>
+      b.value > a.value ? 1 : b.value < a.value ? -1 : 0
+    )
   } catch (error) {
     return []
   }
@@ -323,7 +389,9 @@ async function checkToken(
 
   const holders = await getHolders(address)
   if (!holders.length) {
-    report.notes.push('Blockscout returned no holders; could not simulate')
+    report.notes.push(
+      'No holders found (Blockscout/Etherscan); could not simulate'
+    )
     return finalise(report)
   }
 

@@ -3,11 +3,11 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 12
+        "patch": 13
     },
     "keywords": [],
     "logoURI": "https://mytokenlist.com/image.png",
-    "timestamp": "2026-10-09T09:31:13.304Z",
+    "timestamp": "2026-10-12T08:27:14.724Z",
     "tokens": [
         {
             "chainId": 4663,
@@ -2712,6 +2712,424 @@
             "logoURI": "https://clawbank.co/clawbank-token-icon-48.png",
             "extensions": {
                 "coingeckoId": "clawbank"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x492641F648a4986844848E0beFE66D14817bCE34",
+            "name": "ChainLink Token",
+            "symbol": "LINK",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/chainlink_linkrh_64.png",
+            "extensions": {
+                "coingeckoId": "chainlink"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xCEC185eB182c47d1bA1EFc84e6959e18cd620Be4",
+            "name": "Coinbase Wrapped BTC",
+            "symbol": "cbBTC",
+            "decimals": 8,
+            "logoURI": "https://robin.etherscan.io/token/images/coinbasewrappedbtc_cbbtc_64.png",
+            "extensions": {
+                "coingeckoId": "coinbase-wrapped-btc"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xf3081494B87e8D5fb7960f066E931D1D0e6E3d67",
+            "name": "Bittensor",
+            "symbol": "TAO",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/bittensor_tao_64.png",
+            "extensions": {
+                "coingeckoId": "forevermoney-wrapped-tao"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xcE24439F2D9C6a2289F741120FE202248B666666",
+            "name": "United Stables",
+            "symbol": "U",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/unitedstables_u_64.png",
+            "extensions": {
+                "coingeckoId": "united-stables"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x74BE72AFFAFbC8de30F0C11247814036314D625f",
+            "name": "Pudgy Penguins",
+            "symbol": "PENGU",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/pudgypenguins_pengu_64.png",
+            "extensions": {
+                "coingeckoId": "pudgy-penguins"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x2E8c31162b855A2ffa90F6F8634643Ad6F111e18",
+            "name": "Artificial Inu",
+            "symbol": "AI",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/artificialinu_ai_64.png",
+            "extensions": {
+                "coingeckoId": "artificial-inu-3"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x61a10E8556BEd032eA176330e7F17D6a12a10000",
+            "name": "Unity USD",
+            "symbol": "UUSD",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/unityusd_uusd.svg",
+            "extensions": {
+                "coingeckoId": "unity-usd"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x0bb40D7fbaE7f0C69Bc5910C601987dce697d85F",
+            "name": "SushiToken",
+            "symbol": "SUSHI",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/sushi_sushi_64.png",
+            "extensions": {
+                "coingeckoId": "sushi"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3",
+            "name": "Orbio.so",
+            "symbol": "ORBIO",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/orbioso_orbio_64.png",
+            "extensions": {
+                "coingeckoId": "orbio-so"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x98096d17e191B3dA1d5f99a6D7b3584351b11E18",
+            "name": "Boner Coin",
+            "symbol": "BONER",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/bonercoin_boner_64.png",
+            "extensions": {
+                "coingeckoId": "boner-coin"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x5aB3D4c385B400F3aBB49e80DE2fAF6a88A7B691",
+            "name": "FLock.io",
+            "symbol": "FLOCK",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/flock_flock_64.png",
+            "extensions": {
+                "coingeckoId": "flock-2"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x88C4C42ED68584FF02F5a00D5D3D985108A3961C",
+            "name": "Edel",
+            "symbol": "EDEL",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/edel_edel_64.png",
+            "extensions": {
+                "coingeckoId": "edel"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x18E674231A58c239Dc7DaeDcffE15Ec3A24cff5c",
+            "name": "Hookr.fun",
+            "symbol": "HOOKR",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/hookrfun_hookr_64.png",
+            "extensions": {
+                "coingeckoId": "hookr-fun"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x0E0d2C89a5a019FE1cF762e5e33187631DACC21B",
+            "name": "Chump Coin",
+            "symbol": "CHUMP",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/chumpcoin_chump_64.png",
+            "extensions": {
+                "coingeckoId": "chump-coin"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x385F4f8ae47651ce5F58F5265395a669f8281e18",
+            "name": "A Meme Coin",
+            "symbol": "MEME",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/amemecoin_meme_64.png",
+            "extensions": {
+                "coingeckoId": "a-meme-coin"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xab093dEF657F15dF31b33922A95e047aDd645B29",
+            "name": "MUSHROOM",
+            "symbol": "SHROOM",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/mushroom_shroom_64.png",
+            "extensions": {
+                "coingeckoId": "mushroom-2"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xb8Fa8010833463Aac5595b55B9045479239EfF79",
+            "name": "what the hook?",
+            "symbol": "WTH",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/whatthehook_hook_new_64.png",
+            "extensions": {
+                "coingeckoId": "what-the-hook"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xb9972CA7188e511174947E3936a5315ac7073277",
+            "name": "Prologue",
+            "symbol": "PROLOGUE",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/prologue_prologue_64.png",
+            "extensions": {
+                "coingeckoId": "prologue"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+            "name": "HeyAnon",
+            "symbol": "Anon",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c.png",
+            "extensions": {
+                "coingeckoId": "heyanon"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x777777783478dAdf54678d1D92DaD3fB5Bd42Eb2",
+            "name": "crow with knife",
+            "symbol": "CAW",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/crowwithknife_caw_64.png",
+            "extensions": {
+                "coingeckoId": "crow-with-knife"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x348cC963411FB82CD6e0B64345714fEC94F242CB",
+            "name": "Goose Token",
+            "symbol": "GOOSE",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/goosetoken_goose_64.png",
+            "extensions": {
+                "coingeckoId": "goose-token"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xD9dB30BB0D2b8d2eae3826A1372117E058791e18",
+            "name": "Memory cow Moo",
+            "symbol": "MOO",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/memorycowmoo_moo_64.png",
+            "extensions": {
+                "coingeckoId": "memory-cow-moo"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x451b42A15100C340CA12F7c66DE06fac5EA2D751",
+            "name": "Longbow",
+            "symbol": "BOW",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/longbow-2_bow_64.png",
+            "extensions": {
+                "coingeckoId": "longbow-2"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x20024E485c0B22b42855589700721b28320A7777",
+            "name": "Prism Assets",
+            "symbol": "PRISM",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/prismassets_prism_64.png",
+            "extensions": {
+                "coingeckoId": "prism-assets"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xbc9E7b1c5C0081f4aE85e71eC95703d3dEC9ffaD",
+            "name": "Bucket Shop",
+            "symbol": "Bucket",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/bucketshop_bucket_64.png",
+            "extensions": {
+                "coingeckoId": "bucket-shop"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x5173D45A1191eE33cBB7D8c7e65f21B04eD54802",
+            "name": "Ramses",
+            "symbol": "RAM",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/ramses_ram_64.png",
+            "extensions": {
+                "coingeckoId": "ramses"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xD5f1afEA47b1A9eab414D2ee740cF1d6d039E725",
+            "name": "microduck",
+            "symbol": "microduck",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/microduck_microduck_64.png",
+            "extensions": {
+                "coingeckoId": "microduck"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x00000000043C1117DAFA3A3D0C7148Eb48B30130",
+            "name": "flETH",
+            "symbol": "flETH",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/fleth_fleth_64.png",
+            "extensions": {
+                "coingeckoId": "fleth"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x5f62C57e5C537887117EeF828b7E3Ad41C009FEb",
+            "name": "Good In The Hood",
+            "symbol": "GOOD",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/goodinthehood_good_64.png",
+            "extensions": {
+                "coingeckoId": "good-in-the-hood"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x1DA24f6Bb623b9d1aFEae3F3146659A2662D6d27",
+            "name": "Deepstate",
+            "symbol": "DEEP",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/deepstate_deep_64.png",
+            "extensions": {
+                "coingeckoId": "deepstate"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x32807d54eE1570cBA97e256c59426dD80dcD9fcF",
+            "name": "Symbiosis",
+            "symbol": "SIS",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/symbiosis_sis_64.png",
+            "extensions": {
+                "coingeckoId": "symbiosis-finance"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xFe7E19CbCe2f896C6C528BC355bAF5a768291E18",
+            "name": "SPACEHOOD",
+            "symbol": "SPACEHOOD",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/spacehood_spacehood_64.png",
+            "extensions": {
+                "coingeckoId": "spacehood"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xF0568863195770965a6D8abb0aa87F4314b80320",
+            "name": "SLIPPY",
+            "symbol": "SLIPPY",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/slippy_slippy_64.png",
+            "extensions": {
+                "coingeckoId": "slippy-2"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xc72F232a6869e6CF34dC06129AfFD07F8a2a246A",
+            "name": "Mancer",
+            "symbol": "MANCER",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/mancer_mancer_64.png",
+            "extensions": {
+                "coingeckoId": "mancer"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0xBD4802d70448fb1D776683bebEa592d66B623e29",
+            "name": "Stonk.Fi",
+            "symbol": "STONKFI",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/stonkfi_stonkfi_64.png",
+            "extensions": {
+                "coingeckoId": "stonk-fi"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x77b0AA38451ccDC1b42587E2f80B9879A7f82356",
+            "name": "DogBull",
+            "symbol": "DOGO",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/dogbull_dogo_64.png",
+            "extensions": {
+                "coingeckoId": "dogbull"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x5173b8eA6923c2d40267890D45C46a3480954773",
+            "name": "World is Flat",
+            "symbol": "WIF",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/worldisflat_wif_64.png",
+            "extensions": {
+                "coingeckoId": "world-is-flat"
+            }
+        },
+        {
+            "chainId": 4663,
+            "address": "0x4A88cf518EA6B7D1184184D6eab78dF7252a74F1",
+            "name": "NinjaCat",
+            "symbol": "NINJACAT",
+            "decimals": 18,
+            "logoURI": "https://robin.etherscan.io/token/images/realninjacat_ninjacat_64.png",
+            "extensions": {
+                "coingeckoId": "ninjacat"
             }
         }
     ]

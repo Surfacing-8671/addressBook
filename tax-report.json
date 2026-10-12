@@ -1,0 +1,2339 @@
+[
+  {
+    "address": "0x492641F648a4986844848E0beFE66D14817bCE34",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x49a7..d50E -> sink",
+        "ok": true,
+        "amount": "9937844490958031",
+        "sent": "9937844490958031",
+        "received": "9937844490958031",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xFAD4..6C29 -> sink",
+        "ok": true,
+        "amount": "2985133861056487",
+        "sent": "2985133861056487",
+        "received": "2985133861056487",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x9F0b..7a8B -> sink",
+        "ok": true,
+        "amount": "1208163201960410",
+        "sent": "1208163201960410",
+        "received": "1208163201960410",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "9937844490958031",
+        "sent": "9937844490958031",
+        "received": "9937844490958031",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "2253862886503622641",
+        "sent": "2253862886503622641",
+        "received": "2253862886503622641",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xCEC185eB182c47d1bA1EFc84e6959e18cd620Be4",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xbE0c..3f89 -> sink",
+        "ok": true,
+        "amount": "154",
+        "sent": "154",
+        "received": "154",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x488E..DEf5 -> sink",
+        "ok": true,
+        "amount": "7",
+        "sent": "7",
+        "received": "7",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x84d0..F12d -> sink",
+        "ok": true,
+        "amount": "3",
+        "sent": "3",
+        "received": "3",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "154",
+        "sent": "154",
+        "received": "154",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "12127225",
+        "sent": "12127225",
+        "received": "12127225",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xf3081494B87e8D5fb7960f066E931D1D0e6E3d67",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xE06a..56FF -> sink",
+        "ok": true,
+        "amount": "62615945098650371",
+        "sent": "62615945098650371",
+        "received": "62615945098650371",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x7138..8cBF -> sink",
+        "ok": true,
+        "amount": "12521784392381755",
+        "sent": "12521784392381755",
+        "received": "12521784392381755",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xED41..235F -> sink",
+        "ok": true,
+        "amount": "3178083476017411",
+        "sent": "3178083476017411",
+        "received": "3178083476017411",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x572D..CADc (sell)",
+        "ok": true,
+        "amount": "62615945098650371",
+        "sent": "62615945098650371",
+        "received": "62615945098650371",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x572D..CADc -> sink (buy)",
+        "ok": true,
+        "amount": "4766160581946646414",
+        "sent": "4766160581946646414",
+        "received": "4766160581946646414",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xcE24439F2D9C6a2289F741120FE202248B666666",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x3952..1deE -> sink",
+        "ok": true,
+        "amount": "71657241966475744657344",
+        "sent": "71657241966475744657344",
+        "received": "71657241966475744657344",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x0Cd6..2A25 -> sink",
+        "ok": true,
+        "amount": "3488202243975028632",
+        "sent": "3488202243975028632",
+        "received": "3488202243975028632",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x22c9..9DD1 -> sink",
+        "ok": true,
+        "amount": "390285987661479933",
+        "sent": "390285987661479933",
+        "received": "390285987661479933",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x090f..c3F0 (sell)",
+        "ok": true,
+        "amount": "71657241966475744657344",
+        "sent": "71657241966475744657344",
+        "received": "71657241966475744657344",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x090f..c3F0 -> sink (buy)",
+        "ok": true,
+        "amount": "34381829706757936001549",
+        "sent": "34381829706757936001549",
+        "received": "34381829706757936001549",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x74BE72AFFAFbC8de30F0C11247814036314D625f",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xAa75..B09e -> sink",
+        "ok": true,
+        "amount": "304469193985822403798",
+        "sent": "304469193985822403798",
+        "received": "304469193985822403798",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x06A0..6d66 -> sink",
+        "ok": true,
+        "amount": "142817717550000000000",
+        "sent": "142817717550000000000",
+        "received": "142817717550000000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xdB33..28C0 -> sink",
+        "ok": true,
+        "amount": "19176845713346105971",
+        "sent": "19176845713346105971",
+        "received": "19176845713346105971",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "304469193985822403798",
+        "sent": "304469193985822403798",
+        "received": "304469193985822403798",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "150751430703780949268799",
+        "sent": "150751430703780949268799",
+        "received": "150751430703780949268799",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xFEd493F38c1aAcb4EA4e6A11F8b9287849EE0096",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x882C..EDb7 -> sink",
+        "ok": true,
+        "amount": "3999198364888350000000",
+        "sent": "3999198364888350000000",
+        "received": "3999198364888350000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x19C1..721d -> sink",
+        "ok": true,
+        "amount": "595327102803738",
+        "sent": "595327102803738",
+        "received": "595327102803738",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xf651..6Bf4 -> sink",
+        "ok": true,
+        "amount": "100000000000000",
+        "sent": "100000000000000",
+        "received": "100000000000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x9D53..1010 (sell)",
+        "ok": true,
+        "amount": "3999198364888350000000",
+        "sent": "3999198364888350000000",
+        "received": "3999198364888350000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x9D53..1010 -> sink (buy)",
+        "ok": true,
+        "amount": "354369655841593624392523",
+        "sent": "354369655841593624392523",
+        "received": "354369655841593624392523",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x2E8c31162b855A2ffa90F6F8634643Ad6F111e18",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x35d2..09a1 -> sink",
+        "ok": true,
+        "amount": "62662227205399519763036",
+        "sent": "62662227205399519763036",
+        "received": "62662227205399519763036",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x0000..dEaD -> sink",
+        "ok": true,
+        "amount": "20530568118383002429959",
+        "sent": "20530568118383002429959",
+        "received": "20530568118383002429959",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xCA04..9d85 -> sink",
+        "ok": true,
+        "amount": "95722151059848980162",
+        "sent": "95722151059848980162",
+        "received": "95722151059848980162",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "62662227205399519763036",
+        "sent": "62662227205399519763036",
+        "received": "62662227205399519763036",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "408097734896775314018842",
+        "sent": "408097734896775314018842",
+        "received": "408097734896775314018842",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x61a10E8556BEd032eA176330e7F17D6a12a10000",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x7fC8..E58B -> sink",
+        "ok": true,
+        "amount": "43280140272645494",
+        "sent": "43280140272645494",
+        "received": "43280140272645494",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0xD8d6..Ba31 (sell)",
+        "ok": true,
+        "amount": "43280140272645494",
+        "sent": "43280140272645494",
+        "received": "43280140272645494",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0xD8d6..Ba31 -> sink (buy)",
+        "ok": true,
+        "amount": "20488419461859648611073",
+        "sent": "20488419461859648611073",
+        "received": "20488419461859648611073",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x0bb40D7fbaE7f0C69Bc5910C601987dce697d85F",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x19d6..08F7 -> sink",
+        "ok": true,
+        "amount": "39997661308303602230",
+        "sent": "39997661308303602230",
+        "received": "39997661308303602230",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x7912..80fb -> sink",
+        "ok": true,
+        "amount": "20038124587860948001",
+        "sent": "20038124587860948001",
+        "received": "20038124587860948001",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x10e1..8f6a -> sink",
+        "ok": true,
+        "amount": "314111010725257",
+        "sent": "314111010725257",
+        "received": "314111010725257",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "39997661308303602230",
+        "sent": "39997661308303602230",
+        "received": "39997661308303602230",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "3353014330387330069295",
+        "sent": "3353014330387330069295",
+        "received": "3353014330387330069295",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x134A73B9B3DC68B716298e0934E8c449B7B3967F",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xF267..dE8f -> sink",
+        "ok": true,
+        "amount": "62386799806827558348766",
+        "sent": "62386799806827558348766",
+        "received": "62386799806827558348766",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x56A4..e748 -> sink",
+        "ok": true,
+        "amount": "4509500614822765893965",
+        "sent": "4509500614822765893965",
+        "received": "4509500614822765893965",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x698b..9FA0 -> sink",
+        "ok": true,
+        "amount": "169225496030645546767",
+        "sent": "169225496030645546767",
+        "received": "169225496030645546767",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x7737..eb72 (sell)",
+        "ok": true,
+        "amount": "62386799806827558348766",
+        "sent": "62386799806827558348766",
+        "received": "62386799806827558348766",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x7737..eb72 -> sink (buy)",
+        "ok": true,
+        "amount": "127165907284190080477095",
+        "sent": "127165907284190080477095",
+        "received": "127165907284190080477095",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xAa07A0e9209e16aC99708C3EC70159c6eF3128A3",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x967C..4196 -> sink",
+        "ok": true,
+        "amount": "487820259379866246489",
+        "sent": "487820259379866246489",
+        "received": "487820259379866246489",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x55d7..66E9 -> sink",
+        "ok": true,
+        "amount": "83834939589258557700",
+        "sent": "83834939589258557700",
+        "received": "83834939589258557700",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xe484..4a9B -> sink",
+        "ok": true,
+        "amount": "45766244918713659555",
+        "sent": "45766244918713659555",
+        "received": "45766244918713659555",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0xE071..DDca (sell)",
+        "ok": true,
+        "amount": "487820259379866246489",
+        "sent": "487820259379866246489",
+        "received": "487820259379866246489",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0xE071..DDca -> sink (buy)",
+        "ok": true,
+        "amount": "3277020493657478259535335",
+        "sent": "3277020493657478259535335",
+        "received": "3277020493657478259535335",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x98096d17e191B3dA1d5f99a6D7b3584351b11E18",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x8C53..3F02 -> sink",
+        "ok": true,
+        "amount": "1808470185723516621781",
+        "sent": "1808470185723516621781",
+        "received": "1808470185723516621781",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x4e5b..8c55 -> sink",
+        "ok": true,
+        "amount": "948470956509200000000",
+        "sent": "948470956509200000000",
+        "received": "948470956509200000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xC216..5743 -> sink",
+        "ok": true,
+        "amount": "799589719645668490330",
+        "sent": "799589719645668490330",
+        "received": "799589719645668490330",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "1808470185723516621781",
+        "sent": "1808470185723516621781",
+        "received": "1808470185723516621781",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "509935060602702270434286",
+        "sent": "509935060602702270434286",
+        "received": "509935060602702270434286",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x5aB3D4c385B400F3aBB49e80DE2fAF6a88A7B691",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x33D8..9F2E -> sink",
+        "ok": true,
+        "amount": "72298151118392510625",
+        "sent": "72298151118392510625",
+        "received": "72298151118392510625",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x7f77..40ed -> sink",
+        "ok": true,
+        "amount": "51485511964534013087",
+        "sent": "51485511964534013087",
+        "received": "51485511964534013087",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xb9Ce..1854 -> sink",
+        "ok": true,
+        "amount": "44185913266261316379",
+        "sent": "44185913266261316379",
+        "received": "44185913266261316379",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "72298151118392510625",
+        "sent": "72298151118392510625",
+        "received": "72298151118392510625",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "46489998657463392302464",
+        "sent": "46489998657463392302464",
+        "received": "46489998657463392302464",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x88C4C42ED68584FF02F5a00D5D3D985108A3961C",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x1cCd..866A -> sink",
+        "ok": true,
+        "amount": "1652123083818895467326",
+        "sent": "1652123083818895467326",
+        "received": "1652123083818895467326",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xc17D..543D -> sink",
+        "ok": true,
+        "amount": "61911507749941892672",
+        "sent": "61911507749941892672",
+        "received": "61911507749941892672",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x370e..8753 -> sink",
+        "ok": true,
+        "amount": "26352592871441716498",
+        "sent": "26352592871441716498",
+        "received": "26352592871441716498",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "1652123083818895467326",
+        "sent": "1652123083818895467326",
+        "received": "1652123083818895467326",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "25379885051338627233950",
+        "sent": "25379885051338627233950",
+        "received": "25379885051338627233950",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x18E674231A58c239Dc7DaeDcffE15Ec3A24cff5c",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x7Bc6..FE94 -> sink",
+        "ok": true,
+        "amount": "7887828845372899150560",
+        "sent": "7887828845372899150560",
+        "received": "7887828845372899150560",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x0CA0..181C -> sink",
+        "ok": true,
+        "amount": "1455761315135534021094",
+        "sent": "1455761315135534021094",
+        "received": "1455761315135534021094",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x6A3b..1a34 -> sink",
+        "ok": true,
+        "amount": "1312243175598019363937",
+        "sent": "1312243175598019363937",
+        "received": "1312243175598019363937",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "7887828845372899150560",
+        "sent": "7887828845372899150560",
+        "received": "7887828845372899150560",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "307553405636605688369663",
+        "sent": "307553405636605688369663",
+        "received": "307553405636605688369663",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x0E0d2C89a5a019FE1cF762e5e33187631DACC21B",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x3a9a..7185 -> sink",
+        "ok": true,
+        "amount": "56082399429448592699073",
+        "sent": "56082399429448592699073",
+        "received": "56082399429448592699073",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x53eb..018b -> sink",
+        "ok": true,
+        "amount": "268589497665121978742",
+        "sent": "268589497665121978742",
+        "received": "268589497665121978742",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xdcb3..5761 -> sink",
+        "ok": true,
+        "amount": "163529524058432930457",
+        "sent": "163529524058432930457",
+        "received": "163529524058432930457",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x7144..cFb8 (sell)",
+        "ok": true,
+        "amount": "56082399429448592699073",
+        "sent": "56082399429448592699073",
+        "received": "56082399429448592699073",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x7144..cFb8 -> sink (buy)",
+        "ok": true,
+        "amount": "216691921219572553162543",
+        "sent": "216691921219572553162543",
+        "received": "216691921219572553162543",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x38bc018EDC0a103ed7c547e7E8c8FA8Ec24D0586",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x56A4..e748 -> sink",
+        "ok": true,
+        "amount": "5277803351",
+        "sent": "5277803351",
+        "received": "5277803351",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x1CDb..5419 -> sink",
+        "ok": true,
+        "amount": "18754698",
+        "sent": "18754698",
+        "received": "18754698",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x0A62..8ccF (sell)",
+        "ok": true,
+        "amount": "5277803351",
+        "sent": "5277803351",
+        "received": "5277803351",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x0A62..8ccF -> sink (buy)",
+        "ok": true,
+        "amount": "94883853793",
+        "sent": "94883853793",
+        "received": "94883853793",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x385F4f8ae47651ce5F58F5265395a669f8281e18",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x2dBA..5b1a -> sink",
+        "ok": true,
+        "amount": "76086951730707562518075",
+        "sent": "76086951730707562518075",
+        "received": "76086951730707562518075",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x92d4..F765 -> sink",
+        "ok": true,
+        "amount": "13194730170598087914181",
+        "sent": "13194730170598087914181",
+        "received": "13194730170598087914181",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x9f9f..BCCa -> sink",
+        "ok": true,
+        "amount": "2460886673372841680186",
+        "sent": "2460886673372841680186",
+        "received": "2460886673372841680186",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "76086951730707562518075",
+        "sent": "76086951730707562518075",
+        "received": "76086951730707562518075",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "1155224224798073069115053",
+        "sent": "1155224224798073069115053",
+        "received": "1155224224798073069115053",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xab093dEF657F15dF31b33922A95e047aDd645B29",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x2dBA..5b1a -> sink",
+        "ok": true,
+        "amount": "51703424664409165009085",
+        "sent": "51703424664409165009085",
+        "received": "51703424664409165009085",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x2B15..49ad -> sink",
+        "ok": true,
+        "amount": "12526928148044729619475",
+        "sent": "12526928148044729619475",
+        "received": "12526928148044729619475",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x6A3b..1a34 -> sink",
+        "ok": true,
+        "amount": "2687213079015474850452",
+        "sent": "2687213079015474850452",
+        "received": "2687213079015474850452",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "51703424664409165009085",
+        "sent": "51703424664409165009085",
+        "received": "51703424664409165009085",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "778976589171195607330929",
+        "sent": "778976589171195607330929",
+        "received": "778976589171195607330929",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xb8Fa8010833463Aac5595b55B9045479239EfF79",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x9B78..1a56 -> sink",
+        "ok": true,
+        "amount": "8371715340822617624",
+        "sent": "8371715340822617624",
+        "received": "8371715340822617624",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xd791..1Cc1 -> sink",
+        "ok": true,
+        "amount": "4383659671671124508",
+        "sent": "4383659671671124508",
+        "received": "4383659671671124508",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xF2aA..D633 -> sink",
+        "ok": true,
+        "amount": "242040910892089233",
+        "sent": "242040910892089233",
+        "received": "242040910892089233",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "8371715340822617624",
+        "sent": "8371715340822617624",
+        "received": "8371715340822617624",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "579076013735927185258",
+        "sent": "579076013735927185258",
+        "received": "579076013735927185258",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xb9972CA7188e511174947E3936a5315ac7073277",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x3042..fA8d -> sink",
+        "ok": true,
+        "amount": "10340386833165822959151",
+        "sent": "10340386833165822959151",
+        "received": "10340386833165822959151",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x5556..123D -> sink",
+        "ok": true,
+        "amount": "2522861820542013795072",
+        "sent": "2522861820542013795072",
+        "received": "2522861820542013795072",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x7e9E..A129 -> sink",
+        "ok": true,
+        "amount": "697010542597553218572",
+        "sent": "697010542597553218572",
+        "received": "697010542597553218572",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "10340386833165822959151",
+        "sent": "10340386833165822959151",
+        "received": "10340386833165822959151",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "622283511273107071626232",
+        "sent": "622283511273107071626232",
+        "received": "622283511273107071626232",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x832B..53d4 -> sink",
+        "ok": true,
+        "amount": "42381201034440230915",
+        "sent": "42381201034440230915",
+        "received": "42381201034440230915",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xD83D..CE14 -> sink",
+        "ok": true,
+        "amount": "38118092515063620",
+        "sent": "38118092515063620",
+        "received": "38118092515063620",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xAb4a..b85b -> sink",
+        "ok": true,
+        "amount": "29853551214926274",
+        "sent": "29853551214926274",
+        "received": "29853551214926274",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x9b5a..8029 (sell)",
+        "ok": true,
+        "amount": "42381201034440230915",
+        "sent": "42381201034440230915",
+        "received": "42381201034440230915",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x9b5a..8029 -> sink (buy)",
+        "ok": true,
+        "amount": "3911806384298664759307",
+        "sent": "3911806384298664759307",
+        "received": "3911806384298664759307",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x777777783478dAdf54678d1D92DaD3fB5Bd42Eb2",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xBE85..F607 -> sink",
+        "ok": true,
+        "amount": "8592566978760412970791221596",
+        "sent": "8592566978760412970791221596",
+        "received": "8592566978760412970791221596",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x7Eb4..3fE0 -> sink",
+        "ok": true,
+        "amount": "7522432166660000000000000000",
+        "sent": "7522432166660000000000000000",
+        "received": "7522432166660000000000000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x2F03..547D -> sink",
+        "ok": true,
+        "amount": "2346161106520000000000000000",
+        "sent": "2346161106520000000000000000",
+        "received": "2346161106520000000000000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0xF1DE..074D (sell)",
+        "ok": true,
+        "amount": "8592566978760412970791221596",
+        "sent": "8592566978760412970791221596",
+        "received": "8592566978760412970791221596",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0xF1DE..074D -> sink (buy)",
+        "ok": true,
+        "amount": "10429588362518121263670750854",
+        "sent": "10429588362518121263670750854",
+        "received": "10429588362518121263670750854",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x348cC963411FB82CD6e0B64345714fEC94F242CB",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xc2cE..A0a0 -> sink",
+        "ok": true,
+        "amount": "10360159055843600302",
+        "sent": "10360159055843600302",
+        "received": "10360159055843600302",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x8E2A..9426 -> sink",
+        "ok": true,
+        "amount": "5011827181425803282",
+        "sent": "5011827181425803282",
+        "received": "5011827181425803282",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x5A5b..d7cB -> sink",
+        "ok": true,
+        "amount": "331686755921939651",
+        "sent": "331686755921939651",
+        "received": "331686755921939651",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "10360159055843600302",
+        "sent": "10360159055843600302",
+        "received": "10360159055843600302",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "1000360251599950320294059",
+        "sent": "1000360251599950320294059",
+        "received": "1000360251599950320294059",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xD9dB30BB0D2b8d2eae3826A1372117E058791e18",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x3a9a..7185 -> sink",
+        "ok": true,
+        "amount": "80858469384240098873916",
+        "sent": "80858469384240098873916",
+        "received": "80858469384240098873916",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x7426..F24d -> sink",
+        "ok": true,
+        "amount": "3048850929529274414498",
+        "sent": "3048850929529274414498",
+        "received": "3048850929529274414498",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x015b..06Cf -> sink",
+        "ok": true,
+        "amount": "1129385583997173789331",
+        "sent": "1129385583997173789331",
+        "received": "1129385583997173789331",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "80858469384240098873916",
+        "sent": "80858469384240098873916",
+        "received": "80858469384240098873916",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "889040486123147071743564",
+        "sent": "889040486123147071743564",
+        "received": "889040486123147071743564",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x451b42A15100C340CA12F7c66DE06fac5EA2D751",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x81d6..B89e -> sink",
+        "ok": true,
+        "amount": "6632345669097626966347",
+        "sent": "6632345669097626966347",
+        "received": "6632345669097626966347",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x967C..4196 -> sink",
+        "ok": true,
+        "amount": "6361198063494635866492",
+        "sent": "6361198063494635866492",
+        "received": "6361198063494635866492",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x8294..5803 -> sink",
+        "ok": true,
+        "amount": "4467706171024917031934",
+        "sent": "4467706171024917031934",
+        "received": "4467706171024917031934",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "6632345669097626966347",
+        "sent": "6632345669097626966347",
+        "received": "6632345669097626966347",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "344496780447999474738922",
+        "sent": "344496780447999474738922",
+        "received": "344496780447999474738922",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x20024E485c0B22b42855589700721b28320A7777",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xd0A6..f66c -> sink",
+        "ok": true,
+        "amount": "32114779606827187185799",
+        "sent": "32114779606827187185799",
+        "received": "32114779606827187185799",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x87E6..5D50 -> sink",
+        "ok": true,
+        "amount": "2830609189226869458257",
+        "sent": "2830609189226869458257",
+        "received": "2830609189226869458257",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x594c..0cCe -> sink",
+        "ok": true,
+        "amount": "1519273230925121216771",
+        "sent": "1519273230925121216771",
+        "received": "1519273230925121216771",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x64E8..8bd0 (sell)",
+        "ok": true,
+        "amount": "32114779606827187185799",
+        "sent": "32114779606827187185799",
+        "received": "32114779606827187185799",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x64E8..8bd0 -> sink (buy)",
+        "ok": true,
+        "amount": "647645613156835244299347",
+        "sent": "647645613156835244299347",
+        "received": "647645613156835244299347",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xB47E8ad95ca1e0bA1C76768FE0F109D82B5fDCC4",
+    "verdict": "UNKNOWN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [],
+    "notes": [
+      "No holders found (Blockscout/Etherscan); could not simulate"
+    ]
+  },
+  {
+    "address": "0xf44702b17d9abD53815F703e772F35E9c71A53af",
+    "verdict": "TAXED",
+    "maxTaxBps": 99,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x183e..eBc4 -> sink",
+        "ok": true,
+        "amount": "14680233117417850184244",
+        "sent": "14680233117417850184244",
+        "received": "14680233117417850184244",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x4a29..d16D -> sink",
+        "ok": true,
+        "amount": "6611840915248976997894",
+        "sent": "6611840915248976997894",
+        "received": "6611840915248976997894",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xABDF..5cc4 -> sink",
+        "ok": true,
+        "amount": "1443140268929775432305",
+        "sent": "1443140268929775432305",
+        "received": "1443140268929775432305",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0xA20b..5A48 (sell)",
+        "ok": true,
+        "amount": "14680233117417850184244",
+        "sent": "14680233117417850184244",
+        "received": "14533430786243671682402",
+        "supplyDelta": "0",
+        "taxBps": 99
+      },
+      {
+        "label": "pair 0xA20b..5A48 -> sink (buy)",
+        "ok": true,
+        "amount": "499214441721657322983651",
+        "sent": "499214441721657322983651",
+        "received": "494222297304440749753815",
+        "supplyDelta": "0",
+        "taxBps": 99
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xbc9E7b1c5C0081f4aE85e71eC95703d3dEC9ffaD",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x0236..b3F4 -> sink",
+        "ok": true,
+        "amount": "248201387301723765531911",
+        "sent": "248201387301723765531911",
+        "received": "248201387301723765531911",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x9daC..DF5B -> sink",
+        "ok": true,
+        "amount": "141101536227358093236120",
+        "sent": "141101536227358093236120",
+        "received": "141101536227358093236120",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x9dbA..16E8 -> sink",
+        "ok": true,
+        "amount": "129502083057150804964194",
+        "sent": "129502083057150804964194",
+        "received": "129502083057150804964194",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "248201387301723765531911",
+        "sent": "248201387301723765531911",
+        "received": "248201387301723765531911",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "488397249973548623057129",
+        "sent": "488397249973548623057129",
+        "received": "488397249973548623057129",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x5173D45A1191eE33cBB7D8c7e65f21B04eD54802",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x0525..D793 -> sink",
+        "ok": true,
+        "amount": "974786386387788434147",
+        "sent": "974786386387788434147",
+        "received": "974786386387788434147",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xbE0c..3f89 -> sink",
+        "ok": true,
+        "amount": "95211837136946310213",
+        "sent": "95211837136946310213",
+        "received": "95211837136946310213",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x0A83..Ce00 -> sink",
+        "ok": true,
+        "amount": "21232149607421909660",
+        "sent": "21232149607421909660",
+        "received": "21232149607421909660",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x5860..076a (sell)",
+        "ok": true,
+        "amount": "974786386387788434147",
+        "sent": "974786386387788434147",
+        "received": "974786386387788434147",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x5860..076a -> sink (buy)",
+        "ok": true,
+        "amount": "94507587362815300169815",
+        "sent": "94507587362815300169815",
+        "received": "94507587362815300169815",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xD5f1afEA47b1A9eab414D2ee740cF1d6d039E725",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x2B15..49ad -> sink",
+        "ok": true,
+        "amount": "37525629659026811910024",
+        "sent": "37525629659026811910024",
+        "received": "37525629659026811910024",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x9fc3..a7c5 -> sink",
+        "ok": true,
+        "amount": "14103844916906156697752",
+        "sent": "14103844916906156697752",
+        "received": "14103844916906156697752",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xF829..FcEF -> sink",
+        "ok": true,
+        "amount": "7720617531224939580930",
+        "sent": "7720617531224939580930",
+        "received": "7720617531224939580930",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "37525629659026811910024",
+        "sent": "37525629659026811910024",
+        "received": "37525629659026811910024",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "433844303177852270359160",
+        "sent": "433844303177852270359160",
+        "received": "433844303177852270359160",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x00000000043C1117DAFA3A3D0C7148Eb48B30130",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x3267..5609 -> sink",
+        "ok": true,
+        "amount": "681725990043",
+        "sent": "681725990043",
+        "received": "681725990043",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xb464..055e -> sink",
+        "ok": true,
+        "amount": "592964511",
+        "sent": "592964511",
+        "received": "592964511",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xcbBB..5835 -> sink",
+        "ok": true,
+        "amount": "9465468",
+        "sent": "9465468",
+        "received": "9465468",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "681725990043",
+        "sent": "681725990043",
+        "received": "681725990043",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "116955313813694623",
+        "sent": "116955313813694623",
+        "received": "116955313813694623",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x5f62C57e5C537887117EeF828b7E3Ad41C009FEb",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x3677..bf45 -> sink",
+        "ok": true,
+        "amount": "8847924758872859907865",
+        "sent": "8847924758872859907865",
+        "received": "8847924758872859907865",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xC4de..2154 -> sink",
+        "ok": true,
+        "amount": "5490913488090416693252",
+        "sent": "5490913488090416693252",
+        "received": "5490913488090416693252",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xA09a..0e55 -> sink",
+        "ok": true,
+        "amount": "1788462954784651384885",
+        "sent": "1788462954784651384885",
+        "received": "1788462954784651384885",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8EA7..C304 (sell)",
+        "ok": true,
+        "amount": "8847924758872859907865",
+        "sent": "8847924758872859907865",
+        "received": "8847924758872859907865",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8EA7..C304 -> sink (buy)",
+        "ok": true,
+        "amount": "843179421178312341716936",
+        "sent": "843179421178312341716936",
+        "received": "843179421178312341716936",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x1DA24f6Bb623b9d1aFEae3F3146659A2662D6d27",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x5F4B..0960 -> sink",
+        "ok": true,
+        "amount": "1580348894527692056447",
+        "sent": "1580348894527692056447",
+        "received": "1580348894527692056447",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x0AE3..18B7 -> sink",
+        "ok": true,
+        "amount": "1350995613869365584658",
+        "sent": "1350995613869365584658",
+        "received": "1350995613869365584658",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x1955..d14B -> sink",
+        "ok": true,
+        "amount": "505577937614330235757",
+        "sent": "505577937614330235757",
+        "received": "505577937614330235757",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "1580348894527692056447",
+        "sent": "1580348894527692056447",
+        "received": "1580348894527692056447",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "17562227489794253515652",
+        "sent": "17562227489794253515652",
+        "received": "17562227489794253515652",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x32807d54eE1570cBA97e256c59426dD80dcD9fcF",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x1Aec..91F8 -> sink",
+        "ok": true,
+        "amount": "6920000000000000000",
+        "sent": "6920000000000000000",
+        "received": "6920000000000000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x857B..eB0d -> sink",
+        "ok": true,
+        "amount": "6290857859184379665",
+        "sent": "6290857859184379665",
+        "received": "6290857859184379665",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xD18b..35C5 -> sink",
+        "ok": true,
+        "amount": "808731086375220032",
+        "sent": "808731086375220032",
+        "received": "808731086375220032",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "6920000000000000000",
+        "sent": "6920000000000000000",
+        "received": "6920000000000000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "2706814844269080127480",
+        "sent": "2706814844269080127480",
+        "received": "2706814844269080127480",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xFe7E19CbCe2f896C6C528BC355bAF5a768291E18",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x746e..bB80 -> sink",
+        "ok": true,
+        "amount": "1698847705444767198581",
+        "sent": "1698847705444767198581",
+        "received": "1698847705444767198581",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x5bCA..b0e7 -> sink",
+        "ok": true,
+        "amount": "1048621413605675200675",
+        "sent": "1048621413605675200675",
+        "received": "1048621413605675200675",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x19c8..3AA7 -> sink",
+        "ok": true,
+        "amount": "192809546920396092993",
+        "sent": "192809546920396092993",
+        "received": "192809546920396092993",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "1698847705444767198581",
+        "sent": "1698847705444767198581",
+        "received": "1698847705444767198581",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "1322644638672956212721923",
+        "sent": "1322644638672956212721923",
+        "received": "1322644638672956212721923",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xF0568863195770965a6D8abb0aa87F4314b80320",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x1405..2C2C -> sink",
+        "ok": true,
+        "amount": "35409112416544056686885",
+        "sent": "35409112416544056686885",
+        "received": "35409112416544056686885",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x926B..dE24 -> sink",
+        "ok": true,
+        "amount": "25180678971610766718607",
+        "sent": "25180678971610766718607",
+        "received": "25180678971610766718607",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x240B..02E7 -> sink",
+        "ok": true,
+        "amount": "19751711260701262402400",
+        "sent": "19751711260701262402400",
+        "received": "19751711260701262402400",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "35409112416544056686885",
+        "sent": "35409112416544056686885",
+        "received": "35409112416544056686885",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "774021169837605353291310",
+        "sent": "774021169837605353291310",
+        "received": "774021169837605353291310",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xc72F232a6869e6CF34dC06129AfFD07F8a2a246A",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xe966..8523 -> sink",
+        "ok": true,
+        "amount": "14237152039689348222097",
+        "sent": "14237152039689348222097",
+        "received": "14237152039689348222097",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xAaa5..B13C -> sink",
+        "ok": true,
+        "amount": "8315157964231978121949",
+        "sent": "8315157964231978121949",
+        "received": "8315157964231978121949",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xEff6..0b9a -> sink",
+        "ok": true,
+        "amount": "3381704677305359161581",
+        "sent": "3381704677305359161581",
+        "received": "3381704677305359161581",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x5431..cF54 (sell)",
+        "ok": true,
+        "amount": "14237152039689348222097",
+        "sent": "14237152039689348222097",
+        "received": "14237152039689348222097",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x5431..cF54 -> sink (buy)",
+        "ok": true,
+        "amount": "1749227279406421266506305",
+        "sent": "1749227279406421266506305",
+        "received": "1749227279406421266506305",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0xBD4802d70448fb1D776683bebEa592d66B623e29",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x0000..dEaD -> sink",
+        "ok": true,
+        "amount": "595270307832561094432120",
+        "sent": "595270307832561094432120",
+        "received": "595270307832561094432120",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x5a34..50f9 -> sink",
+        "ok": true,
+        "amount": "437500000000000000000",
+        "sent": "437500000000000000000",
+        "received": "437500000000000000000",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xfe40..ceB2 -> sink",
+        "ok": true,
+        "amount": "146684325938603604478",
+        "sent": "146684325938603604478",
+        "received": "146684325938603604478",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "595270307832561094432120",
+        "sent": "595270307832561094432120",
+        "received": "595270307832561094432120",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "8700013207215053184988844",
+        "sent": "8700013207215053184988844",
+        "received": "8700013207215053184988844",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x77b0AA38451ccDC1b42587E2f80B9879A7f82356",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xbfA9..BD7e -> sink",
+        "ok": true,
+        "amount": "265698885706824294620",
+        "sent": "265698885706824294620",
+        "received": "265698885706824294620",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x92eC..11c5 -> sink",
+        "ok": true,
+        "amount": "10175400702823413745",
+        "sent": "10175400702823413745",
+        "received": "10175400702823413745",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x673e..6767 -> sink",
+        "ok": true,
+        "amount": "7201565753270940942",
+        "sent": "7201565753270940942",
+        "received": "7201565753270940942",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "265698885706824294620",
+        "sent": "265698885706824294620",
+        "received": "265698885706824294620",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "1001075000295198075487065",
+        "sent": "1001075000295198075487065",
+        "received": "1001075000295198075487065",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x5173b8eA6923c2d40267890D45C46a3480954773",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0x0b38..bc7D -> sink",
+        "ok": true,
+        "amount": "17864533163105087552415",
+        "sent": "17864533163105087552415",
+        "received": "17864533163105087552415",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x9654..7634 -> sink",
+        "ok": true,
+        "amount": "10103471337379445852967",
+        "sent": "10103471337379445852967",
+        "received": "10103471337379445852967",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x107c..59bB -> sink",
+        "ok": true,
+        "amount": "8675602129678952341367",
+        "sent": "8675602129678952341367",
+        "received": "8675602129678952341367",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x8366..0951 (sell)",
+        "ok": true,
+        "amount": "17864533163105087552415",
+        "sent": "17864533163105087552415",
+        "received": "17864533163105087552415",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x8366..0951 -> sink (buy)",
+        "ok": true,
+        "amount": "485585026365292300181803",
+        "sent": "485585026365292300181803",
+        "received": "485585026365292300181803",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  },
+  {
+    "address": "0x4A88cf518EA6B7D1184184D6eab78dF7252a74F1",
+    "verdict": "CLEAN",
+    "maxTaxBps": 0,
+    "burnsOnTransfer": false,
+    "taxHints": [],
+    "rebaseHints": [],
+    "probes": [
+      {
+        "label": "EOA 0xF2A3..6c59 -> sink",
+        "ok": true,
+        "amount": "28417302307106126553019",
+        "sent": "28417302307106126553019",
+        "received": "28417302307106126553019",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0xce0b..049f -> sink",
+        "ok": true,
+        "amount": "17646622627727650990602",
+        "sent": "17646622627727650990602",
+        "received": "17646622627727650990602",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA 0x832d..d9F6 -> sink",
+        "ok": true,
+        "amount": "10839458964924070793172",
+        "sent": "10839458964924070793172",
+        "received": "10839458964924070793172",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "EOA -> pair 0x0d98..CF4C (sell)",
+        "ok": true,
+        "amount": "28417302307106126553019",
+        "sent": "28417302307106126553019",
+        "received": "28417302307106126553019",
+        "supplyDelta": "0",
+        "taxBps": 0
+      },
+      {
+        "label": "pair 0x0d98..CF4C -> sink (buy)",
+        "ok": true,
+        "amount": "429552612087953886599730",
+        "sent": "429552612087953886599730",
+        "received": "429552612087953886599730",
+        "supplyDelta": "0",
+        "taxBps": 0
+      }
+    ],
+    "notes": []
+  }
+]
