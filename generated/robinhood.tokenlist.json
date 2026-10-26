@@ -3,11 +3,11 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "patch": 13
+        "patch": 14
     },
     "keywords": [],
     "logoURI": "https://mytokenlist.com/image.png",
-    "timestamp": "2026-10-12T08:27:14.724Z",
+    "timestamp": "2026-10-26T22:22:17.580Z",
     "tokens": [
         {
             "chainId": 4663,
@@ -485,7 +485,10 @@
             "name": "CrowdStrike Holdings • Robinhood Token",
             "symbol": "CRWD",
             "decimals": 18,
-            "logoURI": "https://cdn.robinhood.com/ncw_assets/logos/0xea72ecca2d0f6bfa1394dbbcff85b52cd4233931.png"
+            "logoURI": "https://cdn.robinhood.com/ncw_assets/logos/0xea72ecca2d0f6bfa1394dbbcff85b52cd4233931.png",
+            "extensions": {
+                "coingeckoId": "crowdstrike-holdings-robinhood-tokenized-stock"
+            }
         },
         {
             "chainId": 4663,
@@ -2143,7 +2146,7 @@
             "name": "WETH",
             "symbol": "WETH",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174283/large/weth-robinhood.jpeg?1782924507",
             "extensions": {
                 "coingeckoId": "robinhood-wrapped-eth-robinhood-chain"
             }
@@ -2173,7 +2176,7 @@
             "name": "USDe",
             "symbol": "USDe",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059",
             "extensions": {
                 "coingeckoId": "ethena-usde"
             }
@@ -2184,7 +2187,7 @@
             "name": "Global Dollar",
             "symbol": "USDG",
             "decimals": 6,
-            "logoURI": "https://assets.coingecko.com/coins/images/51281/standard/GDN_USDG_Token_200x200.png?1730484111",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/51281/large/GDN_USDG_Token_200x200.png?1730484111",
             "extensions": {
                 "coingeckoId": "global-dollar"
             }
@@ -2195,7 +2198,7 @@
             "name": "Virtuals Protocol",
             "symbol": "VIRTUAL",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/34057/small/LOGOMARK.png?1708356054",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png?1708356054",
             "extensions": {
                 "coingeckoId": "virtual-protocol"
             }
@@ -2206,7 +2209,7 @@
             "name": "Cash Cat",
             "symbol": "CASHCAT",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174280/small/cashcat-logo.jpg?1782922765",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174280/large/cashcat-logo.jpg?1782922765",
             "extensions": {
                 "coingeckoId": "cash-cat"
             }
@@ -2217,7 +2220,7 @@
             "name": "ApeCoin",
             "symbol": "APE",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/24383/small/APECOIN.png?1756551529",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/24383/large/APECOIN.png?1756551529",
             "extensions": {
                 "coingeckoId": "apecoin"
             }
@@ -2228,7 +2231,7 @@
             "name": "1INCH Token",
             "symbol": "1INCH",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/13469/small/1inch-logo.jpeg?1759404663",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/13469/large/0x111111111117dc0aa78b770fa6a738034120c302_0x2b2c127f11a6604d4319c936334506b86c339a3773b6f2731db0ed4a4fb7fb72.jpg?1787890016",
             "extensions": {
                 "coingeckoId": "1inch"
             }
@@ -2239,7 +2242,7 @@
             "name": "syrupUSDG",
             "symbol": "syrupUSDG",
             "decimals": 6,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174289/small/syrupUSDG.png?1783055974",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174289/large/syrupUSDG.png?1790836053",
             "extensions": {
                 "coingeckoId": "syrup-usdg"
             }
@@ -2250,7 +2253,7 @@
             "name": "StonkBroker",
             "symbol": "STONKBROKER",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174654/small/9gwu14e3hpizobkefg65k66l70wu.?1784445702",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174654/large/9gwu14e3hpizobkefg65k66l70wu.?1784445702",
             "extensions": {
                 "coingeckoId": "stonkbroker"
             }
@@ -2261,7 +2264,7 @@
             "name": "Non-Playable Coin",
             "symbol": "NPC",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/31193/small/NPC_200x200.png?1696530021",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/31193/large/NPC_200x200.png?1696530021",
             "extensions": {
                 "coingeckoId": "non-playable-coin"
             }
@@ -2272,7 +2275,7 @@
             "name": "DEGEN",
             "symbol": "DEGEN",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/34515/small/android-chrome-512x512.png?1706198225",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/34515/large/android-chrome-512x512.png?1706198225",
             "extensions": {
                 "coingeckoId": "degen-base"
             }
@@ -2283,7 +2286,7 @@
             "name": "pipedog",
             "symbol": "PIPEDOG",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174876/small/pipedog.png?1785289835",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174876/large/pipedog.png?1785289835",
             "extensions": {
                 "coingeckoId": "pipedog"
             }
@@ -2294,7 +2297,7 @@
             "name": "Bankr",
             "symbol": "BNKR",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/52626/small/bankr-static.png?1736405365",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/52626/large/bankr-static.png?1736405365",
             "extensions": {
                 "coingeckoId": "bankercoin-2"
             }
@@ -2305,7 +2308,7 @@
             "name": "Pons",
             "symbol": "PONS",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174571/small/jhitvkisdq8fhxvimdkpcw7y3dx5.?1784093932",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174571/large/jhitvkisdq8fhxvimdkpcw7y3dx5.?1784093932",
             "extensions": {
                 "coingeckoId": "pons"
             }
@@ -2316,7 +2319,7 @@
             "name": "MowCat",
             "symbol": "MOW",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102175295/small/logo.jpg?1786074528"
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175295/large/logo.jpg?1786074528"
         },
         {
             "chainId": 4663,
@@ -2324,7 +2327,7 @@
             "name": "TENDIES",
             "symbol": "TENDIES",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174418/small/x1o0qj8dm7mlay3licerc1y75hr4.?1783667012",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174418/large/x1o0qj8dm7mlay3licerc1y75hr4.?1783667012",
             "extensions": {
                 "coingeckoId": "tendies-2"
             }
@@ -2335,7 +2338,7 @@
             "name": "Little John",
             "symbol": "JOHN",
             "decimals": 9,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174507/small/logo.png?1783834955",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174507/large/logo.png?1783834955",
             "extensions": {
                 "coingeckoId": "little-john"
             }
@@ -2346,7 +2349,7 @@
             "name": "Spice",
             "symbol": "SFI",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/13117/small/sfi_red_250px.png?1696512904",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/13117/large/sfi_red_250px.png?1696512904",
             "extensions": {
                 "coingeckoId": "saffron-finance"
             }
@@ -2357,7 +2360,7 @@
             "name": "The Index",
             "symbol": "Index",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174740/small/qffiSdBd_400x400_%281%29.jpg?1784708104",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174740/large/qffiSdBd_400x400_%281%29.jpg?1784708104",
             "extensions": {
                 "coingeckoId": "the-index"
             }
@@ -2368,7 +2371,7 @@
             "name": "What If",
             "symbol": "IF",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174859/small/CoinGecko_Logo_200x200.png?1785157954",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174859/large/CoinGecko_Logo_200x200.png?1785157954",
             "extensions": {
                 "coingeckoId": "what-if-3"
             }
@@ -2379,7 +2382,7 @@
             "name": "AdEx Network",
             "symbol": "ADX",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/847/small/token.png?1775296339",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/847/large/token.png?1775296339",
             "extensions": {
                 "coingeckoId": "adex"
             }
@@ -2390,7 +2393,7 @@
             "name": "frong",
             "symbol": "FRONG",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102175259/small/frong.png?1786003344",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175259/large/frong.png?1786003344",
             "extensions": {
                 "coingeckoId": "frong"
             }
@@ -2401,7 +2404,7 @@
             "name": "TA FUND",
             "symbol": "TA",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102175372/small/kamxnsoze4jsqy51dwkzlg1n6una.?1786160200",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175372/large/kamxnsoze4jsqy51dwkzlg1n6una.?1786160200",
             "extensions": {
                 "coingeckoId": "ta-fund"
             }
@@ -2412,7 +2415,7 @@
             "name": "Sherwood Protocol",
             "symbol": "WOOD",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174574/small/4vvnmslrns3stkpsmbsnsv4cu5ae.?1784094690",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174574/large/4vvnmslrns3stkpsmbsnsv4cu5ae.?1784094690",
             "extensions": {
                 "coingeckoId": "sherwood-protocol"
             }
@@ -2423,7 +2426,7 @@
             "name": "RobinWifHat",
             "symbol": "WIF",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174351/small/roh_400x400.jpg?1783361275",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174351/large/roh_400x400.jpg?1783361275",
             "extensions": {
                 "coingeckoId": "robinwifhat"
             }
@@ -2434,7 +2437,7 @@
             "name": "Thinking Cat",
             "symbol": "HMM",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174672/small/fmu02lq7zai1iyp4qqwfnmu5wr1v.?1784552285",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174672/large/fmu02lq7zai1iyp4qqwfnmu5wr1v.?1784552285",
             "extensions": {
                 "coingeckoId": "thinking-cat"
             }
@@ -2445,7 +2448,7 @@
             "name": "Wen Lambo",
             "symbol": "WEN",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174429/small/Screenshot_2026-07-10_at_6.46.16%E2%80%AFAM.png?1783670272",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174429/large/Screenshot_2026-07-10_at_6.46.16%E2%80%AFAM.png?1783670272",
             "extensions": {
                 "coingeckoId": "wen-lambo-2"
             }
@@ -2456,7 +2459,7 @@
             "name": "Flayer",
             "symbol": "FLAY",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/50377/small/flay.jpg?1727401416",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/50377/large/flay.jpg?1727401416",
             "extensions": {
                 "coingeckoId": "flayer"
             }
@@ -2467,7 +2470,7 @@
             "name": "Shibinhood",
             "symbol": "WOOF",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174898/small/7thwbtf3gwr8kknbqmtv10fgaijr.?1785395134",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174898/large/7thwbtf3gwr8kknbqmtv10fgaijr.?1785395134",
             "extensions": {
                 "coingeckoId": "shibinhood"
             }
@@ -2478,7 +2481,7 @@
             "name": "unstable coin",
             "symbol": "USDUC",
             "decimals": 6,
-            "logoURI": "https://assets.coingecko.com/coins/images/56006/small/usduc-logo.jpg?1748000956",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/56006/large/usduc-logo.jpg?1748000956",
             "extensions": {
                 "coingeckoId": "unstable-coin"
             }
@@ -2489,7 +2492,7 @@
             "name": "YOLO",
             "symbol": "YOLO",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174641/small/fzvhldxmvphx85ls235mclk6bf3x.?1784363718",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174641/large/fzvhldxmvphx85ls235mclk6bf3x.?1784363718",
             "extensions": {
                 "coingeckoId": "yolo-2"
             }
@@ -2500,7 +2503,7 @@
             "name": "ProjectVex",
             "symbol": "VEX",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174375/small/vex.jpg?1783487786",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174375/large/vex.jpg?1783487786",
             "extensions": {
                 "coingeckoId": "projectvex"
             }
@@ -2511,7 +2514,7 @@
             "name": "WISHBONE",
             "symbol": "WISHBONE",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174392/small/wishbone.png?1783579749",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174392/large/wishbone.png?1783579749",
             "extensions": {
                 "coingeckoId": "wishbone"
             }
@@ -2522,7 +2525,7 @@
             "name": "LOXI",
             "symbol": "LOXI",
             "decimals": 18,
-            "logoURI": "https://loxicoin.com/brand/loxi-icon-48.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175232/large/loxi-coingecko-200.png?1785854775",
             "extensions": {
                 "coingeckoId": "loxi-2"
             }
@@ -2533,7 +2536,7 @@
             "name": "Wojak",
             "symbol": "WOJAK",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102175197/small/Wojak_on_Robinhood-.png?1785481093",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175197/large/Wojak_on_Robinhood-.png?1785481093",
             "extensions": {
                 "coingeckoId": "wojak-6"
             }
@@ -2544,7 +2547,7 @@
             "name": "The Juggernaut",
             "symbol": "JUGGERNAUT",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174595/small/juggernaut.jpg?1784167487",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174595/large/juggernaut.jpg?1784167487",
             "extensions": {
                 "coingeckoId": "the-juggernaut"
             }
@@ -2555,7 +2558,7 @@
             "name": "Arrow",
             "symbol": "ARROW",
             "decimals": 18,
-            "logoURI": "https://af-pp-inverted-copy.tiiny.site/AF-PP-Inverted-copy.svg",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174345/large/AF-PP-Inverted.png?1783421306",
             "extensions": {
                 "coingeckoId": "arrow-2"
             }
@@ -2566,7 +2569,7 @@
             "name": "Boyz N The Hood",
             "symbol": "BOYZ",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102175377/small/Boyz_N_The_Hood.png?1786203382",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175377/large/Boyz_N_The_Hood.png?1786203382",
             "extensions": {
                 "coingeckoId": "boyz-n-the-hood"
             }
@@ -2577,7 +2580,7 @@
             "name": "up",
             "symbol": "UP",
             "decimals": 18,
-            "logoURI": "https://up33.xyz/up-mark-tile.svg",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174542/large/tgeb6e7cyzun3qkeab3th5cj23qv.?1783957652",
             "extensions": {
                 "coingeckoId": "up-2"
             }
@@ -2588,7 +2591,7 @@
             "name": "INTERN",
             "symbol": "INTERN",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174901/small/nvemzju9ekgltivvyj0oru6yypdw.?1785396299",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174901/large/nvemzju9ekgltivvyj0oru6yypdw.?1785396299",
             "extensions": {
                 "coingeckoId": "intern-2"
             }
@@ -2599,7 +2602,7 @@
             "name": "KITSU",
             "symbol": "KITSU",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174287/small/kitsu-logo.jpg?1782940070",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174287/large/kitsu-logo.jpg?1782940070",
             "extensions": {
                 "coingeckoId": "kitsu-2"
             }
@@ -2610,7 +2613,7 @@
             "name": "Buy Button",
             "symbol": "BUY",
             "decimals": 18,
-            "logoURI": "https://www.hoodbuybutton.com/logo.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174563/large/0vwsqrv1p93nz9kkkx58kyol3irk.?1784020345",
             "extensions": {
                 "coingeckoId": "buy-button"
             }
@@ -2621,7 +2624,7 @@
             "name": "Lady Marian",
             "symbol": "MARIAN",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174281/small/marian.jpg?1783654680",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174281/large/marian.jpg?1783654680",
             "extensions": {
                 "coingeckoId": "lady-marian"
             }
@@ -2632,7 +2635,7 @@
             "name": "The Stock Impaler",
             "symbol": "STOCKIMPALER",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102175255/small/prs2nxq2j9y3kmnqrzb7n57kb4qv.?1786000135",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175255/large/prs2nxq2j9y3kmnqrzb7n57kb4qv.?1786000135",
             "extensions": {
                 "coingeckoId": "the-stock-impaler"
             }
@@ -2643,7 +2646,7 @@
             "name": "Karma by Virtuals",
             "symbol": "KARMA",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174639/small/3jy9qsd8qu9527llxncb5532ri2c.?1784363001",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174639/large/3jy9qsd8qu9527llxncb5532ri2c.?1784363001",
             "extensions": {
                 "coingeckoId": "karma-by-virtuals"
             }
@@ -2654,7 +2657,7 @@
             "name": "Boardwalk",
             "symbol": "BWLK",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174687/small/boardwalk_avatar_white_on_blue.png?1784621838",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174687/large/boardwalk_avatar_white_on_blue.png?1784621838",
             "extensions": {
                 "coingeckoId": "boardwalk"
             }
@@ -2665,7 +2668,7 @@
             "name": "GRID by Virtuals",
             "symbol": "GRID",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174630/small/41nxlf8zihm0bizumu35snw3bls9.?1784288993",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174630/large/41nxlf8zihm0bizumu35snw3bls9.?1784288993",
             "extensions": {
                 "coingeckoId": "grid-by-virtuals"
             }
@@ -2676,7 +2679,7 @@
             "name": "pools.trade",
             "symbol": "POOLS",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102175260/small/pools.png?1786007584",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175260/large/pools.png?1786007584",
             "extensions": {
                 "coingeckoId": "pools-trade"
             }
@@ -2687,7 +2690,7 @@
             "name": "Hoodrat",
             "symbol": "HOODRAT",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174350/small/sOAZF0mL_400x400.jpg?1783654472",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174350/large/sOAZF0mL_400x400.jpg?1783654472",
             "extensions": {
                 "coingeckoId": "hoodrat-4"
             }
@@ -2698,7 +2701,7 @@
             "name": "Mumu The Bull",
             "symbol": "MUMU",
             "decimals": 18,
-            "logoURI": "https://assets.coingecko.com/coins/images/102174805/small/e589hufyxhv81u1xhhx9tttbgvlu.?1784970765",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174805/large/e589hufyxhv81u1xhhx9tttbgvlu.?1784970765",
             "extensions": {
                 "coingeckoId": "mumu-the-bull-5"
             }
@@ -2709,7 +2712,7 @@
             "name": "ClawBank",
             "symbol": "ClawBank",
             "decimals": 18,
-            "logoURI": "https://clawbank.co/clawbank-token-icon-48.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102172948/large/X_Prof_pic.jpg?1776782170",
             "extensions": {
                 "coingeckoId": "clawbank"
             }
@@ -2720,7 +2723,7 @@
             "name": "ChainLink Token",
             "symbol": "LINK",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/chainlink_linkrh_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405",
             "extensions": {
                 "coingeckoId": "chainlink"
             }
@@ -2731,7 +2734,7 @@
             "name": "Coinbase Wrapped BTC",
             "symbol": "cbBTC",
             "decimals": 8,
-            "logoURI": "https://robin.etherscan.io/token/images/coinbasewrappedbtc_cbbtc_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/40143/large/cbbtc.webp?1726136727",
             "extensions": {
                 "coingeckoId": "coinbase-wrapped-btc"
             }
@@ -2742,7 +2745,7 @@
             "name": "Bittensor",
             "symbol": "TAO",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/bittensor_tao_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102178769/large/tao.png?1790233971",
             "extensions": {
                 "coingeckoId": "forevermoney-wrapped-tao"
             }
@@ -2753,7 +2756,7 @@
             "name": "United Stables",
             "symbol": "U",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/unitedstables_u_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/71157/large/united-stables-logo.jpg?1766061640",
             "extensions": {
                 "coingeckoId": "united-stables"
             }
@@ -2764,7 +2767,7 @@
             "name": "Pudgy Penguins",
             "symbol": "PENGU",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/pudgypenguins_pengu_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/52622/large/PUDGY_PENGUINS_PENGU_PFP.png?1733809110",
             "extensions": {
                 "coingeckoId": "pudgy-penguins"
             }
@@ -2775,7 +2778,7 @@
             "name": "Artificial Inu",
             "symbol": "AI",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/artificialinu_ai_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176647/large/5ou9sb7h478ezv28urbjpzf1fl3e.?1788401429",
             "extensions": {
                 "coingeckoId": "artificial-inu-3"
             }
@@ -2786,7 +2789,7 @@
             "name": "Unity USD",
             "symbol": "UUSD",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/unityusd_uusd.svg",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102172413/large/UUSD.png?1773390929",
             "extensions": {
                 "coingeckoId": "unity-usd"
             }
@@ -2797,7 +2800,7 @@
             "name": "SushiToken",
             "symbol": "SUSHI",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/sushi_sushi_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/12271/large/512x512_Logo_no_chop.png?1696512101",
             "extensions": {
                 "coingeckoId": "sushi"
             }
@@ -2808,7 +2811,7 @@
             "name": "Orbio.so",
             "symbol": "ORBIO",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/orbioso_orbio_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176665/large/orbio.jpg?1788424660",
             "extensions": {
                 "coingeckoId": "orbio-so"
             }
@@ -2819,7 +2822,7 @@
             "name": "Boner Coin",
             "symbol": "BONER",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/bonercoin_boner_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176671/large/boner.jpg?1788451067",
             "extensions": {
                 "coingeckoId": "boner-coin"
             }
@@ -2830,7 +2833,7 @@
             "name": "FLock.io",
             "symbol": "FLOCK",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/flock_flock_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/53178/large/FLock_Token_Logo.png?1735561398",
             "extensions": {
                 "coingeckoId": "flock-2"
             }
@@ -2841,7 +2844,7 @@
             "name": "Edel",
             "symbol": "EDEL",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/edel_edel_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/70661/large/edel-mark-dark-DKW6ovcZ_%281%29.png?1790067790",
             "extensions": {
                 "coingeckoId": "edel"
             }
@@ -2852,7 +2855,7 @@
             "name": "Hookr.fun",
             "symbol": "HOOKR",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/hookrfun_hookr_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175265/large/hookr.jpg?1786013509",
             "extensions": {
                 "coingeckoId": "hookr-fun"
             }
@@ -2863,7 +2866,7 @@
             "name": "Chump Coin",
             "symbol": "CHUMP",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/chumpcoin_chump_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175847/large/1000313188.jpg?1788160023",
             "extensions": {
                 "coingeckoId": "chump-coin"
             }
@@ -2874,7 +2877,7 @@
             "name": "A Meme Coin",
             "symbol": "MEME",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/amemecoin_meme_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176700/large/amc.jpg?1788511294",
             "extensions": {
                 "coingeckoId": "a-meme-coin"
             }
@@ -2885,7 +2888,7 @@
             "name": "MUSHROOM",
             "symbol": "SHROOM",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/mushroom_shroom_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176720/large/shroom.jpg?1788592860",
             "extensions": {
                 "coingeckoId": "mushroom-2"
             }
@@ -2896,7 +2899,7 @@
             "name": "what the hook?",
             "symbol": "WTH",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/whatthehook_hook_new_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175551/large/Hook_Logo_Metallic_Black_BG.png?1788414631",
             "extensions": {
                 "coingeckoId": "what-the-hook"
             }
@@ -2907,7 +2910,7 @@
             "name": "Prologue",
             "symbol": "PROLOGUE",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/prologue_prologue_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175608/large/h1krcass1houq56whug4r5pofmsv.?1787073888",
             "extensions": {
                 "coingeckoId": "prologue"
             }
@@ -2918,7 +2921,7 @@
             "name": "HeyAnon",
             "symbol": "Anon",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/52961/large/AAI__ANON_SQ_Wb_250x250.png?1740500195",
             "extensions": {
                 "coingeckoId": "heyanon"
             }
@@ -2929,7 +2932,7 @@
             "name": "crow with knife",
             "symbol": "CAW",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/crowwithknife_caw_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/36067/large/200px.png?1710405601",
             "extensions": {
                 "coingeckoId": "crow-with-knife"
             }
@@ -2940,7 +2943,7 @@
             "name": "Goose Token",
             "symbol": "GOOSE",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/goosetoken_goose_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176491/large/goose-seal.png?1787897212",
             "extensions": {
                 "coingeckoId": "goose-token"
             }
@@ -2951,7 +2954,7 @@
             "name": "Memory cow Moo",
             "symbol": "MOO",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/memorycowmoo_moo_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176669/large/QTB0jMQ7_400x400.jpg?1788425621",
             "extensions": {
                 "coingeckoId": "memory-cow-moo"
             }
@@ -2962,7 +2965,7 @@
             "name": "Longbow",
             "symbol": "BOW",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/longbow-2_bow_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175862/large/longbow.jpg?1787808621",
             "extensions": {
                 "coingeckoId": "longbow-2"
             }
@@ -2973,7 +2976,7 @@
             "name": "Prism Assets",
             "symbol": "PRISM",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/prismassets_prism_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175383/large/IMG_1143.jpeg?1786208540",
             "extensions": {
                 "coingeckoId": "prism-assets"
             }
@@ -2984,7 +2987,7 @@
             "name": "Bucket Shop",
             "symbol": "Bucket",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/bucketshop_bucket_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175842/large/bucket-shop-logo-200.png?1789713079",
             "extensions": {
                 "coingeckoId": "bucket-shop"
             }
@@ -2995,7 +2998,7 @@
             "name": "Ramses",
             "symbol": "RAM",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/ramses_ram_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/70707/large/ram_%281%29.png?1780632663",
             "extensions": {
                 "coingeckoId": "ramses"
             }
@@ -3006,7 +3009,7 @@
             "name": "microduck",
             "symbol": "microduck",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/microduck_microduck_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176663/large/bvw8hqnmvgvs61nw2h4et0zj00jx.?1788422151",
             "extensions": {
                 "coingeckoId": "microduck"
             }
@@ -3017,7 +3020,7 @@
             "name": "flETH",
             "symbol": "flETH",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/fleth_fleth_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/54177/large/weth.png?1738632581",
             "extensions": {
                 "coingeckoId": "fleth"
             }
@@ -3028,7 +3031,7 @@
             "name": "Good In The Hood",
             "symbol": "GOOD",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/goodinthehood_good_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175335/large/GOOD-newIkon.jpg?1787202654",
             "extensions": {
                 "coingeckoId": "good-in-the-hood"
             }
@@ -3039,7 +3042,7 @@
             "name": "Deepstate",
             "symbol": "DEEP",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/deepstate_deep_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175623/large/_DEEP.png?1787791959",
             "extensions": {
                 "coingeckoId": "deepstate"
             }
@@ -3050,7 +3053,7 @@
             "name": "Symbiosis",
             "symbol": "SIS",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/symbiosis_sis_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/20805/large/sis_token.png?1788879592",
             "extensions": {
                 "coingeckoId": "symbiosis-finance"
             }
@@ -3061,7 +3064,7 @@
             "name": "SPACEHOOD",
             "symbol": "SPACEHOOD",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/spacehood_spacehood_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176731/large/spacehood-primary-avatar.png?1789394437",
             "extensions": {
                 "coingeckoId": "spacehood"
             }
@@ -3072,7 +3075,7 @@
             "name": "SLIPPY",
             "symbol": "SLIPPY",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/slippy_slippy_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102174710/large/slippy_400x400.jpg?1784646272",
             "extensions": {
                 "coingeckoId": "slippy-2"
             }
@@ -3083,7 +3086,7 @@
             "name": "Mancer",
             "symbol": "MANCER",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/mancer_mancer_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175391/large/mancer.jpg?1786259391",
             "extensions": {
                 "coingeckoId": "mancer"
             }
@@ -3094,7 +3097,7 @@
             "name": "Stonk.Fi",
             "symbol": "STONKFI",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/stonkfi_stonkfi_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175651/large/x-profile-1024.png?1787342980",
             "extensions": {
                 "coingeckoId": "stonk-fi"
             }
@@ -3105,7 +3108,7 @@
             "name": "DogBull",
             "symbol": "DOGO",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/dogbull_dogo_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175491/large/fy8vywsdpyv6zb2j7qtyt6u0dw24.?1786442622",
             "extensions": {
                 "coingeckoId": "dogbull"
             }
@@ -3116,7 +3119,7 @@
             "name": "World is Flat",
             "symbol": "WIF",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/worldisflat_wif_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102175446/large/our_logo_200.png?1786347883",
             "extensions": {
                 "coingeckoId": "world-is-flat"
             }
@@ -3127,7 +3130,7 @@
             "name": "NinjaCat",
             "symbol": "NINJACAT",
             "decimals": 18,
-            "logoURI": "https://robin.etherscan.io/token/images/realninjacat_ninjacat_64.png",
+            "logoURI": "https://coin-images.coingecko.com/coins/images/102176554/large/a59d031c-e999-4b92-b555-43fedbafd8c2.JPG?1788120311",
             "extensions": {
                 "coingeckoId": "ninjacat"
             }

@@ -6,8 +6,9 @@
  * 3. Writes the checksummed addresses to tokens/robinhood.ts
  * 4. Writes name/symbol/decimals/logoURI to assets/robinhood.ts, which
  *    overwrites.ts spreads in as top-priority metadata for the generator.
- * 5. Scrapes token logos from Blockscout and Robinscan (robin.etherscan.io)
- *    into assets/blockscout.ts and assets/robinscan.ts.
+ * 5. Fetches token logos from Blockscout into assets/blockscout.ts, and logos
+ *    for the hand-added tokens (tokens/manual.ts) from GeckoTerminal and
+ *    DexScreener into assets/geckoterminal.ts and assets/dexscreener.ts.
  *
  * Example usage:
  * npm run robinhood:sync
@@ -19,21 +20,20 @@ import chalk from 'chalk'
 import { getAddress, isAddress } from 'ethers'
 import { Network } from '../../types'
 import { sleep } from '../utils'
+import manual from '../../tokenlists/robinhood/tokens/manual'
 
 const ASSETS_URL = 'https://api.robinhood.com/rhj/assets'
 const BLOCKSCOUT_URL = 'https://robinhoodchain.blockscout.com/api/v2/tokens/'
 // Blockscout's cursor wraps back to page 1 rather than ending, so this is only
 // a backstop; the real stop condition is a page that adds no new addresses.
 const MAX_BLOCKSCOUT_PAGES = 40
-// Etherscan has no token-index API, so the Robinscan logos are scraped from
-// the explorer's top-tokens page, 100 rows at a time.
-const ROBINSCAN_URL = 'https://robin.etherscan.io'
-const MAX_ROBINSCAN_PAGES = 20
-// Etherscan serves a Cloudflare challenge to clients that don't look like
-// browsers.
-const USER_AGENT =
-  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) ' +
-  'Chrome/126.0.0.0 Safari/537.36'
+// Both take up to 30 comma-separated addresses per request. GeckoTerminal's
+// public API allows 30 calls a minute, hence the longer delay.
+const GECKOTERMINAL_URL =
+  'https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/multi/'
+const DEXSCREENER_URL = 'https://api.dexscreener.com/tokens/v1/robinhood/'
+const BATCH_SIZE = 30
+const GECKOTERMINAL_DELAY_MS = 2100
 const ACTIVE_STATUS = 'ASSET_STATUS_ACTIVE'
 const CHAIN_ID = Number(Network.Robinhood)
 
@@ -41,7 +41,8 @@ const tokenlistPath = path.resolve(__dirname, '../../tokenlists/robinhood')
 const tokensFile = path.resolve(tokenlistPath, 'tokens/robinhood.ts')
 const assetsFile = path.resolve(tokenlistPath, 'assets/robinhood.ts')
 const blockscoutFile = path.resolve(tokenlistPath, 'assets/blockscout.ts')
-const robinscanFile = path.resolve(tokenlistPath, 'assets/robinscan.ts')
+const geckoterminalFile = path.resolve(tokenlistPath, 'assets/geckoterminal.ts')
+const dexscreenerFile = path.resolve(tokenlistPath, 'assets/dexscreener.ts')
 
 interface RhjDeployment {
   contractAddress: string
@@ -72,6 +73,15 @@ interface BlockscoutToken {
 interface BlockscoutPage {
   items: BlockscoutToken[]
   next_page_params: Record<string, unknown> | null
+}
+
+interface GeckoTerminalResponse {
+  data: { attributes: { address: string; image_url: string | null } }[]
+}
+
+interface DexScreenerPair {
+  baseToken: { address: string }
+  info?: { imageUrl?: string }
 }
 
 interface RobinhoodToken {
@@ -280,54 +290,103 @@ function buildAssetsFile(tokens: RobinhoodToken[]): string {
   ].join('\n')
 }
 
+function chunk<T>(items: T[], size: number): T[][] {
+  const chunks: T[][] = []
+  for (let i = 0; i < items.length; i += size) {
+    chunks.push(items.slice(i, i + size))
+  }
+  return chunks
+}
+
 /**
- * Collects address -> logo URL from Robinscan's top-tokens page.
- *
- * Each row links /token/<address> and carries an <img> with a relative
- * /token/images/... path. Paging stops at the first page with no new rows.
+ * Collects address -> logo URL from GeckoTerminal. Its images are mostly
+ * CoinGecko-hosted, so it is the preferred source for hand-added tokens.
+ * Tokens without pools on Robinhood Chain are simply absent from the response.
  * Failures are non-fatal, like Blockscout's.
  */
-async function fetchRobinscanIcons(): Promise<Map<string, string>> {
+async function fetchGeckoTerminalIcons(
+  addresses: string[]
+): Promise<Map<string, string>> {
   const icons = new Map<string, string>()
-  const seen = new Set<string>()
-  const rowPattern =
-    /href="\/token\/(0x[0-9a-fA-F]{40})"[^>]*>\s*<img[^>]*src=['"]([^'"]+)['"]/g
 
   try {
-    for (let page = 1; page <= MAX_ROBINSCAN_PAGES; page++) {
-      const response = await fetch(`${ROBINSCAN_URL}/tokens?ps=100&p=${page}`, {
-        headers: { 'user-agent': USER_AGENT },
+    for (const batch of chunk(addresses, BATCH_SIZE)) {
+      const response = await fetch(`${GECKOTERMINAL_URL}${batch.join(',')}`, {
+        headers: { accept: 'application/json' },
       })
 
       if (!response.ok) {
         throw new Error(
-          `Robinscan error: ${response.status} ${response.statusText}`
+          `GeckoTerminal API error: ${response.status} ${response.statusText}`
         )
       }
 
-      const html = await response.text()
-      let added = 0
-      for (const [, hash, src] of html.matchAll(rowPattern)) {
-        const address = getAddress(hash)
-        if (seen.has(address)) continue
-        seen.add(address)
-        added++
-        // Tokens without a logo get a shared placeholder, not /token/images/.
-        if (src.startsWith('/token/images/')) {
-          icons.set(address, `${ROBINSCAN_URL}${src}`)
-        }
+      const data = (await response.json()) as GeckoTerminalResponse
+      if (!Array.isArray(data?.data)) {
+        throw new Error('Unexpected GeckoTerminal response shape')
       }
 
-      if (added === 0) break
-      await sleep(500)
+      for (const { attributes } of data.data) {
+        if (!isAddress(attributes.address) || !attributes.image_url) continue
+        icons.set(getAddress(attributes.address), attributes.image_url)
+      }
+
+      await sleep(GECKOTERMINAL_DELAY_MS)
     }
   } catch (error) {
-    console.warn(chalk.yellow('Failed to fetch Robinscan icons'), error)
+    console.warn(chalk.yellow('Failed to fetch GeckoTerminal icons'), error)
     return icons
   }
 
   console.log(
-    chalk.dim(`Robinscan: ${seen.size} tokens, ${icons.size} with icons`)
+    chalk.dim(`GeckoTerminal: ${icons.size}/${addresses.length} with icons`)
+  )
+  return icons
+}
+
+/**
+ * Collects address -> logo URL from DexScreener's token-info images. Returns
+ * one entry per pair, so the first pair with an image wins for each token.
+ * Failures are non-fatal, like Blockscout's.
+ */
+async function fetchDexScreenerIcons(
+  addresses: string[]
+): Promise<Map<string, string>> {
+  const icons = new Map<string, string>()
+
+  try {
+    for (const batch of chunk(addresses, BATCH_SIZE)) {
+      const response = await fetch(`${DEXSCREENER_URL}${batch.join(',')}`, {
+        headers: { accept: 'application/json' },
+      })
+
+      if (!response.ok) {
+        throw new Error(
+          `DexScreener API error: ${response.status} ${response.statusText}`
+        )
+      }
+
+      const pairs = (await response.json()) as DexScreenerPair[]
+      if (!Array.isArray(pairs)) {
+        throw new Error('Unexpected DexScreener response shape')
+      }
+
+      for (const pair of pairs) {
+        const imageUrl = pair.info?.imageUrl
+        if (!isAddress(pair.baseToken?.address) || !imageUrl) continue
+        const address = getAddress(pair.baseToken.address)
+        if (!icons.has(address)) icons.set(address, imageUrl)
+      }
+
+      await sleep(500)
+    }
+  } catch (error) {
+    console.warn(chalk.yellow('Failed to fetch DexScreener icons'), error)
+    return icons
+  }
+
+  console.log(
+    chalk.dim(`DexScreener: ${icons.size}/${addresses.length} with icons`)
   )
   return icons
 }
@@ -363,8 +422,8 @@ function buildIconFile(icons: Map<string, string>, source: string): string {
     '// Auto-generated by `npm run robinhood:sync`. Do not edit by hand.',
     `// Source: ${source}`,
     '//',
-    '// Logo URLs only. Lower priority than the RHJ asset data, so this mainly',
-    '// supplies icons for non-equity tokens added via tokens/manual.ts.',
+    '// Logo URLs only. Lower priority than the RHJ asset data and manual',
+    '// overrides, so this mainly supplies icons for tokens in tokens/manual.ts.',
     '',
     "import { TokenInfo } from '@uniswap/token-lists'",
     '',
@@ -385,8 +444,15 @@ async function run() {
   console.log(chalk.cyan(`Fetching token icons from ${BLOCKSCOUT_URL}`))
   const blockscoutIcons = await fetchBlockscoutIcons()
 
-  console.log(chalk.cyan(`Fetching token icons from ${ROBINSCAN_URL}/tokens`))
-  const robinscanIcons = await fetchRobinscanIcons()
+  const manualAddresses = (manual[Network.Robinhood] ?? []).map((address) =>
+    getAddress(address)
+  )
+
+  console.log(chalk.cyan('Fetching token icons from GeckoTerminal'))
+  const geckoterminalIcons = await fetchGeckoTerminalIcons(manualAddresses)
+
+  console.log(chalk.cyan('Fetching token icons from DexScreener'))
+  const dexscreenerIcons = await fetchDexScreenerIcons(manualAddresses)
 
   const tokens = toTokens(assets)
   if (!tokens.length) {
@@ -396,14 +462,16 @@ async function run() {
   fs.writeFileSync(tokensFile, format(buildTokensFile(tokens), tokensFile))
   fs.writeFileSync(assetsFile, format(buildAssetsFile(tokens), assetsFile))
   writeIconFile(blockscoutFile, BLOCKSCOUT_URL, blockscoutIcons)
-  writeIconFile(robinscanFile, `${ROBINSCAN_URL}/tokens`, robinscanIcons)
+  writeIconFile(geckoterminalFile, GECKOTERMINAL_URL, geckoterminalIcons)
+  writeIconFile(dexscreenerFile, DEXSCREENER_URL, dexscreenerIcons)
 
   const withLogos = tokens.filter((token) => token.logoURI).length
   console.log(
     chalk.green(
       `Wrote ${tokens.length} tokens (${withLogos} with logos) and ` +
-        `${blockscoutIcons.size} Blockscout and ${robinscanIcons.size} ` +
-        `Robinscan icons to src/tokenlists/robinhood/`
+        `${blockscoutIcons.size} Blockscout, ${geckoterminalIcons.size} ` +
+        `GeckoTerminal and ${dexscreenerIcons.size} DexScreener icons to ` +
+        `src/tokenlists/robinhood/`
     )
   )
   console.log(chalk.dim('Run `npm run generate` to rebuild the tokenlist.'))
