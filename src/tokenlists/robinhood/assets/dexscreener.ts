@@ -99,10 +99,6 @@ const assets: Record<string, Partial<TokenInfo>> = {
     logoURI:
       'https://cdn.dexscreener.com/cms/images/gUnW93KuJkq5odSO?width=800&height=800&quality=95&format=auto',
   },
-  '0x5c0033cE0029f709A51313E20615f74E1D00a549': {
-    logoURI:
-      'https://cdn.dexscreener.com/cms/images/VOtrmjvHmZu-lFiQ?width=800&height=800&quality=95&format=auto',
-  },
   '0x5Cb6F181081301b44905F3ae15419112ecaBd8A6': {
     logoURI:
       'https://cdn.dexscreener.com/cms/images/4S5N79kV0jhT7y6K?width=800&height=800&quality=95&format=auto',
@@ -118,10 +114,6 @@ const assets: Record<string, Partial<TokenInfo>> = {
   '0x62C71cd34a52c30d894419CBcc55Db2aFA8032eA': {
     logoURI:
       'https://cdn.dexscreener.com/cms/images/xVB96CshTfLo7E8w?width=800&height=800&quality=95&format=auto',
-  },
-  '0x65b445518B1AD0d9C597731494f5bD2991b7EC08': {
-    logoURI:
-      'https://cdn.dexscreener.com/cms/images/2PQ7cyw_H1fD8vn8?width=800&height=800&quality=95&format=auto',
   },
   '0x727701F88f09Fed71eb217Bcea88b3F314CF7079': {
     logoURI:
@@ -202,6 +194,10 @@ const assets: Record<string, Partial<TokenInfo>> = {
   '0xbc9E7b1c5C0081f4aE85e71eC95703d3dEC9ffaD': {
     logoURI:
       'https://cdn.dexscreener.com/cms/images/hoIafFJUe4k1v_Tv?width=800&height=800&quality=95&format=auto',
+  },
+  '0xBD4802d70448fb1D776683bebEa592d66B623e29': {
+    logoURI:
+      'https://cdn.dexscreener.com/cms/images/t8vItJg1Xfuv--up?width=800&height=800&quality=95&format=auto',
   },
   '0xc6911796042b15d7Fa4F6CDe69e245DdCd3d9c31': {
     logoURI:

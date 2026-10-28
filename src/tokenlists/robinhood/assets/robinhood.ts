@@ -193,6 +193,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0x822cc93ffd030293e9842c30bbd678f530701867.png',
   },
+  '0x9a7842EDed60b0FE1e03eEc342C82A397c821eD0': {
+    name: 'BitMine Immersion Technologies • Robinhood Token',
+    symbol: 'BMNR',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x9a7842eded60b0fe1e03eec342c82a397c821ed0.png',
+  },
   '0x2F62fC9fAbb470C690f141c28340eD832bB27020': {
     name: 'Vanguard Total Bond Market ETF • Robinhood Token',
     symbol: 'BND',
@@ -354,6 +361,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0x941ae714ec6d8130c7b75d67160ca08f1e7d11dd.png',
   },
+  '0x501B1B3B79750313AD2C4CcCD08586c4C17d7283': {
+    name: 'Disney • Robinhood Token',
+    symbol: 'DIS',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x501b1b3b79750313ad2c4cccd08586c4c17d7283.png',
+  },
   '0x1D11f0496982706C5e14A514D4E79F2e6BdE4516': {
     name: 'Trump Media & Technology Group • Robinhood Token',
     symbol: 'DJT',
@@ -451,6 +465,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     decimals: 18,
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0xeb30663bdff0622ef4e4e5cbb4e975f19f33f51d.png',
+  },
+  '0xBDFa7A06458Aa26b8E736E0fC87aD37C3BB8Ac2e': {
+    name: 'VanEck Gold Miners ETF • Robinhood Token',
+    symbol: 'GDX',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xbdfa7a06458aa26b8e736e0fc87ad37c3bb8ac2e.png',
   },
   '0x63b814DDBd6BF339f25Fed8c36158a008D5B373e': {
     name: 'General Electric • Robinhood Token',
@@ -613,6 +634,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0xb334c5ce741b80b5b671f47f5c269cb193fe8e24.png',
   },
+  '0x07c44dA0848960bFf894F17584dB8B2F60B2409E': {
+    name: 'JPMorgan Chase • Robinhood Token',
+    symbol: 'JPM',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x07c44da0848960bff894f17584db8b2f60b2409e.png',
+  },
   '0x96b933C74eCB4A0926b9210cef7b743EF46be2E9': {
     name: 'KLA • Robinhood Token',
     symbol: 'KLAC',
@@ -682,6 +710,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     decimals: 18,
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0xa5d4968421ba94814be3b136b15cf422101ac1a3.png',
+  },
+  '0x2fdaa4604F10F4AE7f66fa48A174bCd25b1ece20': {
+    name: "McDonald's • Robinhood Token",
+    symbol: 'MCD',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x2fdaa4604f10f4ae7f66fa48a174bcd25b1ece20.png',
   },
   '0xDdf2266b79abf0B48898959B0ed6E6adf512be74': {
     name: 'MongoDB • Robinhood Token',
@@ -934,6 +969,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     decimals: 18,
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0x9ab02ead789b6903c3c44d0ed32f9c707cdf12fd.png',
+  },
+  '0xa45aBDc77918F7B9199b022eEe400C0BC5712BD2': {
+    name: 'PayPal • Robinhood Token',
+    symbol: 'PYPL',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xa45abdc77918f7b9199b022eee400c0bc5712bd2.png',
   },
   '0xC583c60aeF9Dc401Da72cEC1B404743a93cea1Cc': {
     name: 'D-Wave Quantum Inc. Common Stock • Robinhood Token',
@@ -1229,6 +1271,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0x5e81213613b6b86eab4c6c50d718d34359459786.png',
   },
+  '0xbd335Aa5A1693F0121A5c0Ef18A080E9958DA78b': {
+    name: 'Uber • Robinhood Token',
+    symbol: 'UBER',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xbd335aa5a1693f0121a5c0ef18a080e9958da78b.png',
+  },
   '0x0E6e67Ba88e7b5d9B67636A215c76779B948dE79': {
     name: 'United Microelectronics • Robinhood Token',
     symbol: 'UMC',
@@ -1263,6 +1312,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     decimals: 18,
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0xa30fa36db767ad9ed3f7a60fc79526fb4d56d344.png',
+  },
+  '0x9BFF87700337babF5099e99F322F888DafB1d551': {
+    name: 'Visa • Robinhood Token',
+    symbol: 'V',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x9bff87700337babf5099e99f322f888dafb1d551.png',
   },
   '0x6006ed4B2F94110851ff7509D97D034f0EeD9226': {
     name: 'Vicor • Robinhood Token',
@@ -1347,6 +1403,13 @@ const assets: Record<string, Partial<TokenInfo>> = {
     decimals: 18,
     logoURI:
       'https://cdn.robinhood.com/ncw_assets/logos/0xf9b46d3d1b22199d4d1025a9cedb540a33f1a2d5.png',
+  },
+  '0xE674C5c071821f48BB2d12CAdb83617Eff438f9e': {
+    name: 'Zeta Global • Robinhood Token',
+    symbol: 'ZETA',
+    decimals: 18,
+    logoURI:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xe674c5c071821f48bb2d12cadb83617eff438f9e.png',
   },
   '0x44c4F142009036cF477eD2d09932051843137CF1': {
     name: 'Zoom • Robinhood Token',
